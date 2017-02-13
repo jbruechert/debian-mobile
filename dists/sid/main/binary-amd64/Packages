@@ -1,0 +1,60 @@
+Package: fingerterm
+Priority: optional
+Section: admin
+Installed-Size: 223
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Architecture: amd64
+Version: 1.3.3-1
+Depends: qml-module-qtquick-xmllistmodel, qml-module-qtquick-window2, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libstdc++6 (>= 5)
+Filename: pool/main/f/fingerterm/fingerterm_1.3.3-1_amd64.deb
+Size: 75594
+MD5sum: a6097dda73dce09cb02e6fe3893d2564
+SHA1: b865f13d303b974c2482a46fccf1ac23c2e4efe9
+SHA256: 16ddad98d1986744fb536e08a66d567aa5ca207b14c9a6e15ea4072c35574859
+SHA512: 260b0a18a6922c0016d05bc17d75f73ce9f7e05d5f5db151fe43cb463e46c54d0dafe2159c4e40738e9581ef8e86bb100b5c3dda7efe1cbb4a846423f78e3ac3
+Description: Terminal emulator for touch devices
+ Fingerterm was originally made for the mer / nemo project using QML and c++,
+ but it runs on every system supporting qt.
+ As the name already tells, it's optimized for touch devices,
+ like phones and tablets.
+Homepage: https://git.merproject.org/mer-core/fingerterm
+
+Package: qtvirtualkeyboard
+Priority: extra
+Installed-Size: 927
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
+Architecture: amd64
+Version: 5.7.0-0+debian-mobile
+Depends: libc6 (>= 2.14), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5), libxcb-xfixes0, libxcb1, qtbase-abi-5-7-1
+Filename: pool/main/q/qtvirtualkeyboard/qtvirtualkeyboard_5.7.0-0+debian-mobile_amd64.deb
+Size: 389312
+MD5sum: daaee78cb439cd631482bac4d3d8fefa
+SHA1: 5709597cbf7981a04a0a0d20bf3e1ed8d3b5e78b
+SHA256: 10141bcf0557ae886b5fc5b2134b6d4a7193be70a6fe3de6ee1cd0c6c31f381c
+SHA512: 3c679594e415acd711f652a08e72c1ea50d87ef269da0a2f78b7bb3a3ddc28f286b40319f0896c66426c7bbe25a1da55dc3099950ab0ed7cddda8465e9e7149c
+Description: Qt virtual keyboard
+ The Qt Virtual Keyboard project provides an input framework and
+ reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
+ Desktop, and Boot2Qt targets.
+
+Package: qtvirtualkeyboard-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 3521
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
+Architecture: amd64
+Source: qtvirtualkeyboard
+Version: 5.7.0-0+debian-mobile
+Depends: qtvirtualkeyboard (= 5.7.0-0+debian-mobile)
+Filename: pool/main/q/qtvirtualkeyboard/qtvirtualkeyboard-dbgsym_5.7.0-0+debian-mobile_amd64.deb
+Size: 3474416
+MD5sum: 2aa9cc611e10de23a3be929dc69b569c
+SHA1: ee09bd2aa4b2a131e7b2a34cd146a350c9476e43
+SHA256: 62dd08542a443008e7fda35853c407d157e51151950ca0efaa7caa02803a84f0
+SHA512: 98bc44286889295051c9dc243b18d6786aa3ee13789aec0b009fbb173043f675808cdfad32586663c3622e83b1f89d8c7f2c440edefd6a7117682a8fbbc6063a
+Description: Debug symbols for qtvirtualkeyboard
+Build-Ids: 172a902dad3754f845dbc232c838975a466b854f 2e82dbeeeac7b578f57c6d7db9644602e11271fc 8ade42e8a7fc530a3aea8a3dbbc765734cbca762
+Auto-Built-Package: debug-symbols
+
