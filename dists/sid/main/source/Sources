@@ -11,25 +11,25 @@ Files:
  d6ae4bed908e5e081078a80e61574196 1120 fingerterm_1.3.3-1.debian.tar.xz
  1b8ed0a0710b88df45e66ba95da1f066 1016 fingerterm_1.3.3-1.dsc
  0f3589b83928e994e542d47a6c196b5d 50506 fingerterm_1.3.3.orig.tar.gz
-Vcs-Git: git://git.merproject.org/mer-core/fingerterm.git
+Checksums-Sha1:
+ 56109518101f7b932dbce70650b945a8951ff729 1120 fingerterm_1.3.3-1.debian.tar.xz
+ e9cc0ab54dc1f311a9cd8e71318d60a8c540de5e 1016 fingerterm_1.3.3-1.dsc
+ fa31a521dcef30b55fcf286e9bc74f4b45f50416 50506 fingerterm_1.3.3.orig.tar.gz
 Vcs-Browser: https://git.merproject.org/mer-core/fingerterm
+Homepage: https://git.merproject.org/mer-core/fingerterm
 Checksums-Sha256:
  afcdee7839191f5392e435571f8c1ec1e55f7cb32a2dae3dde804bc33d7b8e4b 1120 fingerterm_1.3.3-1.debian.tar.xz
  e14bac53080d8d42a023a1748c1504e0721e7d68cf392c442628e426dbf588ec 1016 fingerterm_1.3.3-1.dsc
  929a4c5338e4f8b69f47321d2569e0b8761c110b1c07933de97a0db98b62edeb 50506 fingerterm_1.3.3.orig.tar.gz
 Checksums-Sha512:
  fa2abea8aad4d24b33dc834a3b53aebbb509eebc5fcb1c00dbe280817fd7f9d9883ab0098ad85731eec2c98e63a7e3f02d1ddf424a97b4072ddc53b346f8c97c 1016 fingerterm_1.3.3-1.dsc
-Homepage: https://git.merproject.org/mer-core/fingerterm
+Vcs-Git: git://git.merproject.org/mer-core/fingerterm.git
 Package-List:
  fingerterm deb admin optional arch=any
-Checksums-Sha1:
- 56109518101f7b932dbce70650b945a8951ff729 1120 fingerterm_1.3.3-1.debian.tar.xz
- e9cc0ab54dc1f311a9cd8e71318d60a8c540de5e 1016 fingerterm_1.3.3-1.dsc
- fa31a521dcef30b55fcf286e9bc74f4b45f50416 50506 fingerterm_1.3.3.orig.tar.gz
 
 Package: qtvirtualkeyboard
 Binary: qtvirtualkeyboard
-Version: 5.7.0-0+debian-mobile
+Version: 5.7.0-0
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
 Build-Depends: debhelper (>= 9), libqt5svg5-dev, pkg-config, pkg-kde-tools (>= 0.9), qt5-default, qtbase5-dev (>= 5.2), qtbase5-private-dev, qtdeclarative5-dev
@@ -38,19 +38,19 @@ Standards-Version: 3.9.6
 Format: 3.0 (quilt)
 Directory: pool/main/q/qtvirtualkeyboard
 Files:
- 109eb6d61c17c9378935441d4e0de8f8 1308 qtvirtualkeyboard_5.7.0-0+debian-mobile.debian.tar.xz
- 3cdd903bd88d4cb28346752377ced5f9 1154 qtvirtualkeyboard_5.7.0-0+debian-mobile.dsc
- fa473ab9175483dd82aa4d27b9682715 10029524 qtvirtualkeyboard_5.7.0-0+debian.orig.tar.xz
+ a7a2a9ea1325481a3cf04bc8472290fa 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
+ aec9da25f7718a420668798d9239a40d 1071 qtvirtualkeyboard_5.7.0-0.dsc
+ fa473ab9175483dd82aa4d27b9682715 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
+Checksums-Sha256:
+ 2ba75f828a29cb65906ea3c585cc23ad25801cd7a4b28846770da9aaee39fddf 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
+ 33185fe3570195642e7d1679864e5a4407cc98f1077e4fab4842b1b528a58bf8 1071 qtvirtualkeyboard_5.7.0-0.dsc
+ df433de68e23b173b87b422038bc9f3e53349035c11a2b2e495122274664ff2f 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
 Package-List:
  qtvirtualkeyboard deb unknown extra arch=any
-Checksums-Sha512:
- 2f8c94e25784de9a729da73715078007ce5552eeebd48153f42ad879279b93b98a0b02bc6a2ce9edd23ab561aea23a13df3054aaf9adb1a8b8d364e7cc1b0ccf 1154 qtvirtualkeyboard_5.7.0-0+debian-mobile.dsc
-Checksums-Sha256:
- d755325b65545c9a9b9b7d6796f049b35e8506e6748c8da515b2a5b546a68fb4 1308 qtvirtualkeyboard_5.7.0-0+debian-mobile.debian.tar.xz
- 29921e697fc3540791823944e542914eed43fea52570822202779b5328ba6335 1154 qtvirtualkeyboard_5.7.0-0+debian-mobile.dsc
- df433de68e23b173b87b422038bc9f3e53349035c11a2b2e495122274664ff2f 10029524 qtvirtualkeyboard_5.7.0-0+debian.orig.tar.xz
 Checksums-Sha1:
- 80e337e8f9db7be66b98e5827efbe0747bc695c8 1308 qtvirtualkeyboard_5.7.0-0+debian-mobile.debian.tar.xz
- 62d2f5673d1e6cdc590a76728bed7fab2d443f75 1154 qtvirtualkeyboard_5.7.0-0+debian-mobile.dsc
- 893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0-0+debian.orig.tar.xz
+ f1cf47cd4509d40d310a52839922d03a92a41804 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
+ e53b6312e432c61eb2c05127a09191be12838c68 1071 qtvirtualkeyboard_5.7.0-0.dsc
+ 893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
+Checksums-Sha512:
+ 926419607510e35aadcb73ebbbf3e0ae9310cec745f5b4bee3f714faeea87836ca54be6b35374a9d4676334b2d377dcbac9abd2fab4114c1f84b6c31996de8e6 1071 qtvirtualkeyboard_5.7.0-0.dsc
 

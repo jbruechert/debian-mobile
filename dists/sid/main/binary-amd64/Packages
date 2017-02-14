@@ -25,36 +25,16 @@ Installed-Size: 927
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
 Architecture: amd64
-Version: 5.7.0-0+debian-mobile
+Version: 5.7.0-0
 Depends: libc6 (>= 2.14), libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0), libqt5svg5 (>= 5.6.0~beta), libstdc++6 (>= 5), libxcb-xfixes0, libxcb1, qtbase-abi-5-7-1
-Filename: pool/main/q/qtvirtualkeyboard/qtvirtualkeyboard_5.7.0-0+debian-mobile_amd64.deb
-Size: 389312
-MD5sum: daaee78cb439cd631482bac4d3d8fefa
-SHA1: 5709597cbf7981a04a0a0d20bf3e1ed8d3b5e78b
-SHA256: 10141bcf0557ae886b5fc5b2134b6d4a7193be70a6fe3de6ee1cd0c6c31f381c
-SHA512: 3c679594e415acd711f652a08e72c1ea50d87ef269da0a2f78b7bb3a3ddc28f286b40319f0896c66426c7bbe25a1da55dc3099950ab0ed7cddda8465e9e7149c
+Filename: pool/main/q/qtvirtualkeyboard/qtvirtualkeyboard_5.7.0-0_amd64.deb
+Size: 389182
+MD5sum: 53e6d107fdd53a8017f9db90d57d7d05
+SHA1: 337b9d9983fcd5a6fd6f91167257dd3f007b6005
+SHA256: db85b27b6623f9eab0ad65fe6479df5529d18a27eb0980a1db4907efcca66b59
+SHA512: 5872e2bd53ca9a24674a7c811ddc0c764022b6cce3ee7f6afaaa70d883512f8f07b80e908dfbed0b36fa32d0e4dcf75bf5ddadbd22d750da788ef28ab88ab416
 Description: Qt virtual keyboard
  The Qt Virtual Keyboard project provides an input framework and
  reference keyboard frontend for Qt 5 on Linux Desktop/X11, Windows
  Desktop, and Boot2Qt targets.
-
-Package: qtvirtualkeyboard-dbgsym
-Priority: extra
-Section: debug
-Installed-Size: 3521
-Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
-Original-Maintainer: Bhushan Shah <bhush94@gmail.com>
-Architecture: amd64
-Source: qtvirtualkeyboard
-Version: 5.7.0-0+debian-mobile
-Depends: qtvirtualkeyboard (= 5.7.0-0+debian-mobile)
-Filename: pool/main/q/qtvirtualkeyboard/qtvirtualkeyboard-dbgsym_5.7.0-0+debian-mobile_amd64.deb
-Size: 3474416
-MD5sum: 2aa9cc611e10de23a3be929dc69b569c
-SHA1: ee09bd2aa4b2a131e7b2a34cd146a350c9476e43
-SHA256: 62dd08542a443008e7fda35853c407d157e51151950ca0efaa7caa02803a84f0
-SHA512: 98bc44286889295051c9dc243b18d6786aa3ee13789aec0b009fbb173043f675808cdfad32586663c3622e83b1f89d8c7f2c440edefd6a7117682a8fbbc6063a
-Description: Debug symbols for qtvirtualkeyboard
-Build-Ids: 172a902dad3754f845dbc232c838975a466b854f 2e82dbeeeac7b578f57c6d7db9644602e11271fc 8ade42e8a7fc530a3aea8a3dbbc765734cbca762
-Auto-Built-Package: debug-symbols
 

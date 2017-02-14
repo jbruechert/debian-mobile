@@ -1,2 +1,7 @@
 # ignore packages and build files not ready for upload
-packages/* 
+packages/*
+IDEAS
+
+# rubbish created by other programs
+.directory
+*.swp
