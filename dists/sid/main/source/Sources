@@ -1,6 +1,6 @@
 Package: fingerterm
 Binary: fingerterm
-Version: 1.3.3-1
+Version: 1.3.3-2
 Maintainer: JBBgameich <jbb.mail@gmx.de>
 Build-Depends: debhelper (>= 9), libqt5core5a, libqt5gui5, libqt5qml5, libqt5quick5
 Architecture: any
@@ -8,24 +8,24 @@ Standards-Version: 3.9.8
 Format: 3.0 (quilt)
 Directory: pool/main/f/fingerterm
 Files:
- d6ae4bed908e5e081078a80e61574196 1120 fingerterm_1.3.3-1.debian.tar.xz
- 1b8ed0a0710b88df45e66ba95da1f066 1016 fingerterm_1.3.3-1.dsc
- 0f3589b83928e994e542d47a6c196b5d 50506 fingerterm_1.3.3.orig.tar.gz
-Checksums-Sha1:
- 56109518101f7b932dbce70650b945a8951ff729 1120 fingerterm_1.3.3-1.debian.tar.xz
- e9cc0ab54dc1f311a9cd8e71318d60a8c540de5e 1016 fingerterm_1.3.3-1.dsc
- fa31a521dcef30b55fcf286e9bc74f4b45f50416 50506 fingerterm_1.3.3.orig.tar.gz
-Vcs-Browser: https://git.merproject.org/mer-core/fingerterm
-Homepage: https://git.merproject.org/mer-core/fingerterm
-Checksums-Sha256:
- afcdee7839191f5392e435571f8c1ec1e55f7cb32a2dae3dde804bc33d7b8e4b 1120 fingerterm_1.3.3-1.debian.tar.xz
- e14bac53080d8d42a023a1748c1504e0721e7d68cf392c442628e426dbf588ec 1016 fingerterm_1.3.3-1.dsc
- 929a4c5338e4f8b69f47321d2569e0b8761c110b1c07933de97a0db98b62edeb 50506 fingerterm_1.3.3.orig.tar.gz
-Checksums-Sha512:
- fa2abea8aad4d24b33dc834a3b53aebbb509eebc5fcb1c00dbe280817fd7f9d9883ab0098ad85731eec2c98e63a7e3f02d1ddf424a97b4072ddc53b346f8c97c 1016 fingerterm_1.3.3-1.dsc
+ 1a4bfabd4b00fc3b3aa9f0708c41c56b 1920 fingerterm_1.3.3-2.debian.tar.xz
+ eca6831d66d94eaceaacec2d3073d0fa 1016 fingerterm_1.3.3-2.dsc
+ 3b4b9ee4fa63bdb6bd0cd31a7570bde8 42584 fingerterm_1.3.3.orig.tar.xz
 Vcs-Git: git://git.merproject.org/mer-core/fingerterm.git
+Checksums-Sha1:
+ 8c01435a0dda382b96c39448921ed07da05d812d 1920 fingerterm_1.3.3-2.debian.tar.xz
+ 174ccc997d10fd643b0ac1427d9e0c571cf35e3e 1016 fingerterm_1.3.3-2.dsc
+ 924e8a10ff28ef200ab5b0d407885629ceb502f6 42584 fingerterm_1.3.3.orig.tar.xz
+Checksums-Sha256:
+ e835d401f09741c6ddf3bfb51e3e87f01f697aa9ee4a1f70165b52b7eb1296c2 1920 fingerterm_1.3.3-2.debian.tar.xz
+ d0adcceadf28b58fd8173373e47c373e931d7b7c728de08e84292724edfad77e 1016 fingerterm_1.3.3-2.dsc
+ 3652d3039f75a34674fa8b3e8e7fc0d1565de4d4bbc47f403d38709d5398629d 42584 fingerterm_1.3.3.orig.tar.xz
+Homepage: https://git.merproject.org/mer-core/fingerterm
 Package-List:
  fingerterm deb admin optional arch=any
+Vcs-Browser: https://git.merproject.org/mer-core/fingerterm
+Checksums-Sha512:
+ 7f6d0c08077662b17c34da485505abd08ed74c7ac5bbe97b39a70a2439cfd593b27209e75e591b508c6ba87754d835fd7bfc80ade1e1212db89c07776297081b 1016 fingerterm_1.3.3-2.dsc
 
 Package: qtvirtualkeyboard
 Binary: qtvirtualkeyboard
@@ -45,12 +45,12 @@ Checksums-Sha256:
  2ba75f828a29cb65906ea3c585cc23ad25801cd7a4b28846770da9aaee39fddf 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
  33185fe3570195642e7d1679864e5a4407cc98f1077e4fab4842b1b528a58bf8 1071 qtvirtualkeyboard_5.7.0-0.dsc
  df433de68e23b173b87b422038bc9f3e53349035c11a2b2e495122274664ff2f 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
-Package-List:
- qtvirtualkeyboard deb unknown extra arch=any
 Checksums-Sha1:
  f1cf47cd4509d40d310a52839922d03a92a41804 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
  e53b6312e432c61eb2c05127a09191be12838c68 1071 qtvirtualkeyboard_5.7.0-0.dsc
  893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
 Checksums-Sha512:
  926419607510e35aadcb73ebbbf3e0ae9310cec745f5b4bee3f714faeea87836ca54be6b35374a9d4676334b2d377dcbac9abd2fab4114c1f84b6c31996de8e6 1071 qtvirtualkeyboard_5.7.0-0.dsc
+Package-List:
+ qtvirtualkeyboard deb unknown extra arch=any
 

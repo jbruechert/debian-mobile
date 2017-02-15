@@ -4,14 +4,14 @@ Section: admin
 Installed-Size: 223
 Maintainer: JBBgameich <jbb.mail@gmx.de>
 Architecture: amd64
-Version: 1.3.3-1
+Version: 1.3.3-2
 Depends: qml-module-qtquick-xmllistmodel, qml-module-qtquick-window2, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libstdc++6 (>= 5)
-Filename: pool/main/f/fingerterm/fingerterm_1.3.3-1_amd64.deb
-Size: 75594
-MD5sum: a6097dda73dce09cb02e6fe3893d2564
-SHA1: b865f13d303b974c2482a46fccf1ac23c2e4efe9
-SHA256: 16ddad98d1986744fb536e08a66d567aa5ca207b14c9a6e15ea4072c35574859
-SHA512: 260b0a18a6922c0016d05bc17d75f73ce9f7e05d5f5db151fe43cb463e46c54d0dafe2159c4e40738e9581ef8e86bb100b5c3dda7efe1cbb4a846423f78e3ac3
+Filename: pool/main/f/fingerterm/fingerterm_1.3.3-2_amd64.deb
+Size: 75830
+MD5sum: 6fe0a632707f4a0c2639de1539a474aa
+SHA1: f2f614355b996c54f7e296e867df15b0e2d58e7a
+SHA256: 24b91af6c3da24a0bdced50ea02a19681c15e3bf7c3f6ad3b21d8fd7251a9478
+SHA512: 9e411d2dc24d7018153c36754c88d94936b1abb7df2bc5b4ad4e28531ce2ba721d16d86adc0fd58a58d8835bcb72666430f2d0e2025da5c2d7450827c2e89a20
 Description: Terminal emulator for touch devices
  Fingerterm was originally made for the mer / nemo project using QML and c++,
  but it runs on every system supporting qt.
