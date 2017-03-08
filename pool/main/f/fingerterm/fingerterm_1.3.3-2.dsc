@@ -8,15 +8,15 @@ Homepage: https://git.merproject.org/mer-core/fingerterm
 Standards-Version: 3.9.8
 Vcs-Browser: https://github.com/jbbgameich/fingerterm-packaging/
 Vcs-Git: git://github.com/jbbgameich/fingerterm-packaging.git
-Build-Depends: debhelper (>= 9), libqt5core5a, libqt5gui5, libqt5qml5, libqt5quick5
+Build-Depends: debhelper (>= 9), qt5-qmake, qt5-default, qtbase5-dev, qtdeclarative5-dev
 Package-List:
  fingerterm deb admin optional arch=any
 Checksums-Sha1:
  924e8a10ff28ef200ab5b0d407885629ceb502f6 42584 fingerterm_1.3.3.orig.tar.xz
- f18622ccf9090422a43d056811838eaba579ced2 1932 fingerterm_1.3.3-2.debian.tar.xz
+ 32c7930591900d0a3c41613978878cff80046813 1944 fingerterm_1.3.3-2.debian.tar.xz
 Checksums-Sha256:
  3652d3039f75a34674fa8b3e8e7fc0d1565de4d4bbc47f403d38709d5398629d 42584 fingerterm_1.3.3.orig.tar.xz
- 1c99266882fab9df23236b169384100e9e3d924bc6a228dc32178ded8c77cb90 1932 fingerterm_1.3.3-2.debian.tar.xz
+ 7f761fdd23965759fd94e96350f365675fa9aa5f1de194b36330927774b8299a 1944 fingerterm_1.3.3-2.debian.tar.xz
 Files:
  3b4b9ee4fa63bdb6bd0cd31a7570bde8 42584 fingerterm_1.3.3.orig.tar.xz
- 230e0f2d2953f72d93399ca19ce75aed 1932 fingerterm_1.3.3-2.debian.tar.xz
+ 8083b3291df2325aeaf0b49c0aa3ef36 1944 fingerterm_1.3.3-2.debian.tar.xz
