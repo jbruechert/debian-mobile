@@ -133,9 +133,9 @@ SHA1: 6234c835232c1c76104c4129c954e78582d8d71b
 SHA256: ecc9bd41834574ce27135d53322b4200bd1c83e71ce4b568915aef2908ed97a4
 SHA512: f412af98a83d93b6b1ff79d1bfeb711a6226d70d3ffcf23eec65cab272e309fa9d63f09ab7055c868bbca5e17f9a66a511688b6d86836ac3e2af75990bdc8ed0
 Description: Debug symbols for android-tools-mkbootimg
+Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
 Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
-Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
 
 Package: fingerterm
 Priority: optional

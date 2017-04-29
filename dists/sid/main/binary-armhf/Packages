@@ -48,8 +48,8 @@ SHA1: 3096c0df9cbd1bbdaf356ebd8ee9752c2fd99b03
 SHA256: 46c38c95efd33a7a187e8b4cafe3caa963fa4a8a4e28937c9aa0c7ffabb6624c
 SHA512: 87c380d172fe2d2d3f73d5d29291862682b24ee64dc8367fdba05c305781b229b63a6b9ab41d1da8aca1dde3f9713478aa5c01a0894f8162b387f3e74a10f2f6
 Description: Debug symbols for android-tools-adbd
-Build-Ids: 0d9fb21f10db16367b6498866c2b56a4e9196f03
 Auto-Built-Package: debug-symbols
+Build-Ids: 0d9fb21f10db16367b6498866c2b56a4e9196f03
 Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: android-tools-fsutils
@@ -133,7 +133,28 @@ SHA1: 81ac945b7f37240243424d43de6a7ca7236f61b0
 SHA256: 3af0df58f541380d72d1e10742e58089749342b877c303dc6d0a09303b8c0862
 SHA512: 071c6e347f681e6636f629a4a3e58370969d25816a906981bad9806e8541cd6895c42cc4657293fe2f524eaef8fc232d2d5b4c8add0f2f48defc9a4f1304afa1
 Description: Debug symbols for android-tools-mkbootimg
+Auto-Built-Package: debug-symbols
 Build-Ids: 679b85559f6cdd37df0957fd96b3c1e409121579
 Homepage: https://developer.android.com/tools/help/adb.html
-Auto-Built-Package: debug-symbols
+
+Package: fingerterm
+Priority: optional
+Section: admin
+Installed-Size: 171
+Maintainer: JBBgameich <jbb.mail@gmx.de>
+Architecture: armhf
+Version: 1.3.3-1
+Depends: qml-module-qtquick-xmllistmodel, qml-module-qtquick-window2, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libgles2-mesa (>= 7.8.1) | libgles2, libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.2.0), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.6.1), libstdc++6 (>= 5)
+Filename: pool/main/f/fingerterm/fingerterm_1.3.3-1_armhf.deb
+Size: 68076
+MD5sum: cccd00feafdaf7a5990a6662c622b10c
+SHA1: 1e638edfa94c3e6412475ad537d9306d95f8e90f
+SHA256: 8ecf1c548058c5761a423eb2c976c329bb90fbd25b4e3198db0d5ddeefa86d04
+SHA512: 060d0539b558ffc2365cc2e20a919f8ac63722e16b4cbb2e193e5266d1ccec991e1c967db6db94885399554cefc480421a41afabc4c496eec81aa81df14ed593
+Description: Terminal emulator for touch devices
+ Fingerterm was originally made for the mer / nemo project using QML and c++,
+ but it runs on every system supporting qt.
+ As the name already tells, it's optimized for touch devices,
+ like phones and tablets.
+Homepage: https://git.merproject.org/mer-core/fingerterm
 
