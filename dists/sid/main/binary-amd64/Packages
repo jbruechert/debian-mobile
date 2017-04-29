@@ -1,3 +1,142 @@
+Package: android-tools-adbd
+Priority: extra
+Section: devel
+Installed-Size: 146
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: libbsd0 (>= 0.0), libc6 (>= 2.17), libpcre3, libssl1.1 (>= 1.1.0)
+Filename: pool/main/a/android-tools/android-tools-adbd_5.1.1.r38-1_amd64.deb
+Size: 57104
+MD5sum: 80094db98a21f7834ff5e697db7727cc
+SHA1: 81b94bca43f3401599e1869fd2eb8bc2a3c89adf
+SHA256: 268a33639c715444145bbab48c17e1e6545f041e86bf9d88f85691bdd3f47969
+SHA512: 7c8a475bb812d3b04fb79a395ed99728781c71f65baf1dc1f347a8d72bee249ae3f2c79708d1768e35fc33ff6df2ea2f04ec6c076519e8f2f73f6f6260ec95de
+Description: Android Debug Bridge daemon
+ Android Debug Bridge (adb) is a versatile tool that lets you manage the state
+ of an emulator instance or Android-powered device. It is a client-server
+ program that includes three components:
+ .
+ A client, which runs on your development machine. You can invoke a
+ client from a shell by issuing an adb command. Other Android tools such
+ as the ADT plugin and DDMS also create adb clients.
+ .
+ A server, which runs as a background process on your development
+ machine.  The server manages communication between the client and the
+ adb daemon running on an emulator or device.
+ .
+ A daemon, which runs as a background process on each emulator or device
+ instance.
+ .
+ This package provides the daemon component.
+Homepage: https://developer.android.com/tools/help/adb.html
+
+Package: android-tools-adbd-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 191
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: android-tools-adbd (= 5.1.1.r38-1)
+Filename: pool/main/a/android-tools/android-tools-adbd-dbgsym_5.1.1.r38-1_amd64.deb
+Size: 162008
+MD5sum: 13f5d6fe8c774bdcfa959aa4de6fa4ec
+SHA1: c5633fe4ba871498cf30fc3532660b76ac434c34
+SHA256: 1b8aa39a849ff39e37774f5c2c5a56d97498623355d938eed14d453d3d2fa831
+SHA512: 28cdaf68e5984c06390fad87728f3404f80283df6304ea8d24453aee72f34b58f3fe99bc9bb930249e44a9ab1a11ef01cf13f968f4dab77aa6a0d971643bbd11
+Description: Debug symbols for android-tools-adbd
+Homepage: https://developer.android.com/tools/help/adb.html
+Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
+Auto-Built-Package: debug-symbols
+
+Package: android-tools-fsutils
+Priority: extra
+Section: devel
+Installed-Size: 317
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: python:any, libc6 (>= 2.14), libpcre3, zlib1g (>= 1:1.2.3.4)
+Filename: pool/main/a/android-tools/android-tools-fsutils_5.1.1.r38-1_amd64.deb
+Size: 73678
+MD5sum: 974cee5df8d2e02c144ff38e5695237f
+SHA1: a890b8f7cea8b1bc3dc0066c1f1fa28991b00612
+SHA256: 015490faf1c220c69127eb5fa0a368a3e4a32e42900e71a50a6cced62bc405e3
+SHA512: 2ff64f5fecbe40f863a322a8a61caf7c3ea2ccb03be7e63d42e657005b5380f9ec2d404a788f3ffd8148eac4692621d40518da3d4469c7096c0b3075b5a74753
+Description: Android ext4 utilities with sparse support
+ Android images (.img) are typically ext4 filesystems in a special
+ sparse file format.  These are tools to help make that format.
+ .
+ This package provides the utilities to deal with Android sparse ext4
+ images.
+Homepage: https://developer.android.com/tools/help/adb.html
+
+Package: android-tools-fsutils-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 432
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: android-tools-fsutils (= 5.1.1.r38-1)
+Filename: pool/main/a/android-tools/android-tools-fsutils-dbgsym_5.1.1.r38-1_amd64.deb
+Size: 340840
+MD5sum: 745395c82436d03f33342511afde826c
+SHA1: e6a13bfbdaab8c739c95703b678c4712d8bf028a
+SHA256: d6b00994c2b86514247f18e420ba8a6af357666eaf06966dd2618d2cfbbb0d9d
+SHA512: dc7571826a11484c560aac502e07275a029af11c8bbf427cef0d4921d9ba13e8b08bf64a3ca33c348e0714fb401cb2f1d7ebba56fb2636d6322b7e843e49d924
+Description: Debug symbols for android-tools-fsutils
+Homepage: https://developer.android.com/tools/help/adb.html
+Build-Ids: 23ccbdb89a5e6e5733c27678e1100d01ff4cf0d4 643fa6185b4240468a5dbb78a63f64d0e8b82859 85e40ef47272ab25dc95dedd7511553aca698ab4 903f411c71fbc8b3dcf803c3c7fb0a9ef2246765 9095c92f2d509cec103827c36fc24cc604dba300 db8ed6a4f65eb06c410b3d7a770239eaafd9f714
+Auto-Built-Package: debug-symbols
+
+Package: android-tools-mkbootimg
+Priority: extra
+Section: devel
+Installed-Size: 35
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: libc6 (>= 2.4)
+Filename: pool/main/a/android-tools/android-tools-mkbootimg_5.1.1.r38-1_amd64.deb
+Size: 13044
+MD5sum: 07c477564faa1ea3a4471c4aee2004cc
+SHA1: d56dd25d17c1f681cbc1086e020b09ffc3861ee8
+SHA256: 3ed2c398a31d167a114165b1788e9835352b089062bee56371cfdf197c4261ad
+SHA512: db1f68bd62f63a80c105dc2aa5cc0527ebe5a3fc69c11cc3041aa036c8c82820cebdda9f31646aae87dac392953d5ff0c8c5cdcbc6da1b629602f0971d571427
+Description: Android tool to create Android boot images
+ Creates Android boot images that includes kernel image and ramdisk, in a
+ special format which can be used with fastboot.
+ .
+ This package provides the mkbootimg command-line tool.
+Homepage: https://developer.android.com/tools/help/adb.html
+
+Package: android-tools-mkbootimg-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 27
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Architecture: amd64
+Source: android-tools
+Version: 5.1.1.r38-1
+Depends: android-tools-mkbootimg (= 5.1.1.r38-1)
+Filename: pool/main/a/android-tools/android-tools-mkbootimg-dbgsym_5.1.1.r38-1_amd64.deb
+Size: 12282
+MD5sum: 0b6f75059c1645d95066141ba6f97d05
+SHA1: 6234c835232c1c76104c4129c954e78582d8d71b
+SHA256: ecc9bd41834574ce27135d53322b4200bd1c83e71ce4b568915aef2908ed97a4
+SHA512: f412af98a83d93b6b1ff79d1bfeb711a6226d70d3ffcf23eec65cab272e309fa9d63f09ab7055c868bbca5e17f9a66a511688b6d86836ac3e2af75990bdc8ed0
+Description: Debug symbols for android-tools-mkbootimg
+Homepage: https://developer.android.com/tools/help/adb.html
+Auto-Built-Package: debug-symbols
+Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
+
 Package: fingerterm
 Priority: optional
 Section: admin

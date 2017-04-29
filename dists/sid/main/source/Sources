@@ -1,3 +1,35 @@
+Package: android-tools
+Binary: android-tools-fsutils, android-tools-adbd, android-tools-mkbootimg
+Version: 5.1.1.r38-1
+Maintainer: Android Tools Maintainers <android-tools-devel@lists.alioth.debian.org>
+Build-Depends: debhelper (>= 9), dh-python, libbsd-dev, libcap-dev, libpcre3-dev, libssl-dev, python, zlib1g-dev
+Architecture: amd64 arm64 armhf i386
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/a/android-tools
+Files:
+ 0b28169acd2dda65009e81c6a1bbe83c 24440 android-tools_5.1.1.r38-1.debian.tar.xz
+ 2264dc810e138d3e97c0e9724ee80eca 2485 android-tools_5.1.1.r38-1.dsc
+ c54fd2c09601e255c43ccc4444f71bbd 578140 android-tools_5.1.1.r38.orig.tar.xz
+Uploaders: Laszlo Boszormenyi (GCS) <gcs@debian.org>, Hans-Christoph Steiner <hans@eds.org>, Loïc Minier <lool@debian.org>, Ximin Luo <infinity0@debian.org>, Fathi Boudra <fabo@debian.org>
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-tools.git
+Checksums-Sha256:
+ aed38a412f23416c94b69d1cd33c3fcfcdf516a2c27b3115971c0db814fea9b7 24440 android-tools_5.1.1.r38-1.debian.tar.xz
+ 711fbcf37d77ef987d8f854102a88fbec2614a64e7af289a321d5819277a8d1a 2485 android-tools_5.1.1.r38-1.dsc
+ fbd859d0457a414dc82244745fa110a5d4cf998a4a8c95f835477a89fca61ccc 578140 android-tools_5.1.1.r38.orig.tar.xz
+Checksums-Sha512:
+ 1a3cb6f59cafac865a28a48e0f5de1473d4a38a308a55dc26797031f31f6f8abf30eb22ed60eba9b3e493888fa82c3058954e825f492768f176131a1745d502e 2485 android-tools_5.1.1.r38-1.dsc
+Checksums-Sha1:
+ 9a235ae4ab12a3070f7832b67bb641f6203f10db 24440 android-tools_5.1.1.r38-1.debian.tar.xz
+ c741f1926f8377d499e589a279aa7724aabf7c4e 2485 android-tools_5.1.1.r38-1.dsc
+ 650fc413f69aaca203ba607c3c179f020fba24a8 578140 android-tools_5.1.1.r38.orig.tar.xz
+Package-List:
+ android-tools-adbd deb devel extra arch=amd64,arm64,armhf,i386
+ android-tools-fsutils deb devel extra arch=amd64,arm64,armhf,i386
+ android-tools-mkbootimg deb devel extra arch=amd64,arm64,armhf,i386
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-tools.git
+Homepage: https://developer.android.com/tools/help/adb.html
+
 Package: fingerterm
 Binary: fingerterm
 Version: 1.3.3-1
@@ -11,21 +43,21 @@ Files:
  eae59d512eee5a0b4e922f07e0c9b41c 2352 fingerterm_1.3.3-1.debian.tar.xz
  aa70fb847cefae83848d9c34a55d695d 1030 fingerterm_1.3.3-1.dsc
  3b4b9ee4fa63bdb6bd0cd31a7570bde8 42584 fingerterm_1.3.3.orig.tar.xz
-Package-List:
- fingerterm deb admin optional arch=any
+Vcs-Git: git://github.com/jbbgameich/fingerterm-packaging.git
 Checksums-Sha1:
  51661a25dac2becc962a054fe73df4ddfaa07ca4 2352 fingerterm_1.3.3-1.debian.tar.xz
  217f8dbab150ae40d21f8ebbf9b159de8b518924 1030 fingerterm_1.3.3-1.dsc
  924e8a10ff28ef200ab5b0d407885629ceb502f6 42584 fingerterm_1.3.3.orig.tar.xz
+Checksums-Sha512:
+ e2df8d3fd212af992efdf623ff1a97f6352cd53ffba1244f27f020ae8da2e2659ac93f15c8027f6f4f8f8590cd7f21c9151a1b44c1cd63a1579396e8935bb523 1030 fingerterm_1.3.3-1.dsc
 Homepage: https://git.merproject.org/mer-core/fingerterm
+Vcs-Browser: https://github.com/jbbgameich/fingerterm-packaging/
 Checksums-Sha256:
  6a8811095b5df05b7f7424af585ce4c0a35ec8dfc6edef7c21f9c0dbc0d44021 2352 fingerterm_1.3.3-1.debian.tar.xz
  34c9e92c9b46026871f5a60c298d696a0572afafc7c60dbc2f17f48e312e5e6e 1030 fingerterm_1.3.3-1.dsc
  3652d3039f75a34674fa8b3e8e7fc0d1565de4d4bbc47f403d38709d5398629d 42584 fingerterm_1.3.3.orig.tar.xz
-Vcs-Browser: https://github.com/jbbgameich/fingerterm-packaging/
-Checksums-Sha512:
- e2df8d3fd212af992efdf623ff1a97f6352cd53ffba1244f27f020ae8da2e2659ac93f15c8027f6f4f8f8590cd7f21c9151a1b44c1cd63a1579396e8935bb523 1030 fingerterm_1.3.3-1.dsc
-Vcs-Git: git://github.com/jbbgameich/fingerterm-packaging.git
+Package-List:
+ fingerterm deb admin optional arch=any
 
 Package: qtvirtualkeyboard
 Binary: qtvirtualkeyboard
@@ -41,12 +73,12 @@ Files:
  a7a2a9ea1325481a3cf04bc8472290fa 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
  aec9da25f7718a420668798d9239a40d 1071 qtvirtualkeyboard_5.7.0-0.dsc
  fa473ab9175483dd82aa4d27b9682715 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
-Package-List:
- qtvirtualkeyboard deb unknown extra arch=any
 Checksums-Sha1:
  f1cf47cd4509d40d310a52839922d03a92a41804 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
  e53b6312e432c61eb2c05127a09191be12838c68 1071 qtvirtualkeyboard_5.7.0-0.dsc
  893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
+Package-List:
+ qtvirtualkeyboard deb unknown extra arch=any
 Checksums-Sha512:
  926419607510e35aadcb73ebbbf3e0ae9310cec745f5b4bee3f714faeea87836ca54be6b35374a9d4676334b2d377dcbac9abd2fab4114c1f84b6c31996de8e6 1071 qtvirtualkeyboard_5.7.0-0.dsc
 Checksums-Sha256:
