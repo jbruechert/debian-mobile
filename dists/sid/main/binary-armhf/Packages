@@ -48,9 +48,9 @@ SHA1: 3096c0df9cbd1bbdaf356ebd8ee9752c2fd99b03
 SHA256: 46c38c95efd33a7a187e8b4cafe3caa963fa4a8a4e28937c9aa0c7ffabb6624c
 SHA512: 87c380d172fe2d2d3f73d5d29291862682b24ee64dc8367fdba05c305781b229b63a6b9ab41d1da8aca1dde3f9713478aa5c01a0894f8162b387f3e74a10f2f6
 Description: Debug symbols for android-tools-adbd
-Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
 Build-Ids: 0d9fb21f10db16367b6498866c2b56a4e9196f03
+Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: android-tools-fsutils
 Priority: extra
@@ -92,8 +92,8 @@ SHA256: 75322ed0884782ca61f63bf8d5bce614d031f497f69ab517ed3d2417116c68a6
 SHA512: bffb1df4ac2061fe7c72b53b32a5ebd60872472cae91b6eb5c15bae3249ce9e8f8143f2e8be65f38e8439450a0c3d0d1f59c407431cea2f58759639721320c62
 Description: Debug symbols for android-tools-fsutils
 Homepage: https://developer.android.com/tools/help/adb.html
-Build-Ids: 41af488e044aef1241e94ee4ce2ef942aaa85302 b61d3407f41569c56fb6a4a8895c52004a7fb482 cc2a06e03a629e3255aa77eb07217e563fd4ab41 d7f9d7c0550a434e16d23277b2bd33395233d9f0 fea319e5e88b0c0ab6b1348ca65a855027cc0b20 fff6f2549d2fc4effadd8594e5acfacc8a84cd1d
 Auto-Built-Package: debug-symbols
+Build-Ids: 41af488e044aef1241e94ee4ce2ef942aaa85302 b61d3407f41569c56fb6a4a8895c52004a7fb482 cc2a06e03a629e3255aa77eb07217e563fd4ab41 d7f9d7c0550a434e16d23277b2bd33395233d9f0 fea319e5e88b0c0ab6b1348ca65a855027cc0b20 fff6f2549d2fc4effadd8594e5acfacc8a84cd1d
 
 Package: android-tools-mkbootimg
 Priority: extra
@@ -133,8 +133,8 @@ SHA1: 81ac945b7f37240243424d43de6a7ca7236f61b0
 SHA256: 3af0df58f541380d72d1e10742e58089749342b877c303dc6d0a09303b8c0862
 SHA512: 071c6e347f681e6636f629a4a3e58370969d25816a906981bad9806e8541cd6895c42cc4657293fe2f524eaef8fc232d2d5b4c8add0f2f48defc9a4f1304afa1
 Description: Debug symbols for android-tools-mkbootimg
-Build-Ids: 679b85559f6cdd37df0957fd96b3c1e409121579
 Homepage: https://developer.android.com/tools/help/adb.html
+Build-Ids: 679b85559f6cdd37df0957fd96b3c1e409121579
 Auto-Built-Package: debug-symbols
 
 Package: fingerterm
@@ -194,6 +194,6 @@ SHA1: 166b1c7067aaeb749b4b2013ef4a24ce77946ab7
 SHA256: ba7dcc4e793de7bce9200b4fd6f40ad89d07fe8ab8dc52a55d0f9065aab5192a
 SHA512: ad0eec1ea916faf51eeaecd20701300dfd376d9b62cd668726fae66987550f2e663920c2d63592b0f9cb0a2ec939f611249111bfe2ac3b1220678f04949710f9
 Description: Debug symbols for qtvirtualkeyboard
-Auto-Built-Package: debug-symbols
 Build-Ids: 2f0bf33d2e991f29556b713c5b61dcc3d25a8cc3 39ac5960b00826eb82a7fc6e9ae99f320130d0aa c2e4367027c12d7dd19ed6691bfdffd1c85ccfbe
+Auto-Built-Package: debug-symbols
 

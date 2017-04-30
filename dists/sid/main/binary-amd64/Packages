@@ -48,9 +48,9 @@ SHA1: c5633fe4ba871498cf30fc3532660b76ac434c34
 SHA256: 1b8aa39a849ff39e37774f5c2c5a56d97498623355d938eed14d453d3d2fa831
 SHA512: 28cdaf68e5984c06390fad87728f3404f80283df6304ea8d24453aee72f34b58f3fe99bc9bb930249e44a9ab1a11ef01cf13f968f4dab77aa6a0d971643bbd11
 Description: Debug symbols for android-tools-adbd
+Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
 Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
-Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
 
 Package: android-tools-fsutils
 Priority: extra
@@ -91,9 +91,9 @@ SHA1: e6a13bfbdaab8c739c95703b678c4712d8bf028a
 SHA256: d6b00994c2b86514247f18e420ba8a6af357666eaf06966dd2618d2cfbbb0d9d
 SHA512: dc7571826a11484c560aac502e07275a029af11c8bbf427cef0d4921d9ba13e8b08bf64a3ca33c348e0714fb401cb2f1d7ebba56fb2636d6322b7e843e49d924
 Description: Debug symbols for android-tools-fsutils
+Auto-Built-Package: debug-symbols
 Build-Ids: 23ccbdb89a5e6e5733c27678e1100d01ff4cf0d4 643fa6185b4240468a5dbb78a63f64d0e8b82859 85e40ef47272ab25dc95dedd7511553aca698ab4 903f411c71fbc8b3dcf803c3c7fb0a9ef2246765 9095c92f2d509cec103827c36fc24cc604dba300 db8ed6a4f65eb06c410b3d7a770239eaafd9f714
 Homepage: https://developer.android.com/tools/help/adb.html
-Auto-Built-Package: debug-symbols
 
 Package: android-tools-mkbootimg
 Priority: extra
@@ -133,9 +133,9 @@ SHA1: 6234c835232c1c76104c4129c954e78582d8d71b
 SHA256: ecc9bd41834574ce27135d53322b4200bd1c83e71ce4b568915aef2908ed97a4
 SHA512: f412af98a83d93b6b1ff79d1bfeb711a6226d70d3ffcf23eec65cab272e309fa9d63f09ab7055c868bbca5e17f9a66a511688b6d86836ac3e2af75990bdc8ed0
 Description: Debug symbols for android-tools-mkbootimg
+Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
 Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
-Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
 
 Package: fingerterm
 Priority: optional
