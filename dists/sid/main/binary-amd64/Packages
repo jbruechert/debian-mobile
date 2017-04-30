@@ -49,8 +49,8 @@ SHA256: 1b8aa39a849ff39e37774f5c2c5a56d97498623355d938eed14d453d3d2fa831
 SHA512: 28cdaf68e5984c06390fad87728f3404f80283df6304ea8d24453aee72f34b58f3fe99bc9bb930249e44a9ab1a11ef01cf13f968f4dab77aa6a0d971643bbd11
 Description: Debug symbols for android-tools-adbd
 Auto-Built-Package: debug-symbols
-Homepage: https://developer.android.com/tools/help/adb.html
 Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
+Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: android-tools-fsutils
 Priority: extra
@@ -134,8 +134,8 @@ SHA256: ecc9bd41834574ce27135d53322b4200bd1c83e71ce4b568915aef2908ed97a4
 SHA512: f412af98a83d93b6b1ff79d1bfeb711a6226d70d3ffcf23eec65cab272e309fa9d63f09ab7055c868bbca5e17f9a66a511688b6d86836ac3e2af75990bdc8ed0
 Description: Debug symbols for android-tools-mkbootimg
 Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
-Auto-Built-Package: debug-symbols
 Homepage: https://developer.android.com/tools/help/adb.html
+Auto-Built-Package: debug-symbols
 
 Package: fingerterm
 Priority: optional
@@ -208,8 +208,8 @@ SHA1: 6bcb72cfdf917b4a4ba570791d1b2e18ca3a3b12
 SHA256: d4c18981bd291b75f80f3d1c7e24ff1d2d757a27305bc1fad9cbc27d6f45b1e2
 SHA512: 6202e285e567eb342e925426296726d18a548a9cde213a5b9a6fe1e4aa25649f0068a5a0fa61f8110e8701ac9aa360e90924bfd064cf8663b423c418567ffa86
 Description: Debug symbols for kirigami-gallery
-Build-Ids: 06e6684f443e6fa4fad19948d34c2063b96e1ec8
 Homepage: https://projects.kde.org/kirigami
+Build-Ids: 06e6684f443e6fa4fad19948d34c2063b96e1ec8
 Auto-Built-Package: debug-symbols
 
 Package: kirigami2-dev
@@ -246,17 +246,17 @@ Homepage: https://projects.kde.org/kirigami
 Package: qml-box2d
 Priority: extra
 Section: libs
-Installed-Size: 459
+Installed-Size: 464
 Maintainer: Ville Ranki <ville.ranki@iki.fi>
 Architecture: amd64
 Version: 2.0.0
 Depends: libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.2.0), libstdc++6 (>= 5)
 Filename: pool/main/q/qml-box2d/qml-box2d_2.0.0_amd64.deb
-Size: 129072
-MD5sum: b843b34d91eb861fae194e1e7033e3b4
-SHA1: dc3bf226f86136bc5e78203ad2332c2ddf438bee
-SHA256: d1a4c82352e5591d3f2b857f0be8be9f7fcb14b18dbd33c06b90901a84f6676d
-SHA512: b4c5050a16d14302d90622dc7b1dcd007b8a80a572d61d9b383b5a608a30507151c1d57b5adb8ab2e9203d05b3db6e27dd0210ac2fd1394feb899da93338c354
+Size: 133966
+MD5sum: e5e4a9b4a3811cf73b60c648187da817
+SHA1: c9158e4c0a634e3af3bb77b7e94af481c821f25e
+SHA256: e19c2391a26f0af6215f4718fe121241d9d7817132981a60cd2553b3d5e6987b
+SHA512: 6a8492731609c9d20b9d097bbe47f7b2dba6badb1aaaa90e7a045165c7cad253cb53b2f499fb4c53d97ffe84da3c1a4a4dc8ea7407818fbc8cf976f252aade6f
 Description: Box2d physics for QML applications
  The goal is to expose the functionality of Box2D as QML components,
  in order to make it easy to write physics based games in QML.
@@ -308,8 +308,8 @@ SHA256: 9e50f5756ede3b02444cd8fca395047be0e4d3aac548a37da5ff991d3dffce4a
 SHA512: 1432569633fb9c9e9c7beb7efae8691bc476facc8c0f4102c8aa0180f42ee5af6f3fd13d909966ad6b52dae560b90c7b01e5b4ccf3c33ccb4760d30cdbaa1c46
 Description: Debug symbols for qml-module-org-kde-kirigami2
 Build-Ids: 3aed1bc5b9043c719343996ae34d1c0e99936e8a
-Homepage: https://projects.kde.org/kirigami
 Auto-Built-Package: debug-symbols
+Homepage: https://projects.kde.org/kirigami
 
 Package: qmlplane
 Priority: optional
@@ -365,6 +365,6 @@ SHA1: 665325a2790560556c77d28ab3a788b991f359af
 SHA256: 2adc35162a15634c8a49bf7d983d0639b631060007e1727b1019960d0ea59d9b
 SHA512: 3eca010910aab71524c2ee14ee495aba1e5a67292470245f2edafc63e808129198f5435a3f726bc66b5edb40dc1f5c61e8bc09f8b85a283896acab3c8f063fa0
 Description: Debug symbols for qtvirtualkeyboard
-Auto-Built-Package: debug-symbols
 Build-Ids: 428d90c5c815a8529fa232b7aa154ffb46105533 985f743a6cdcd2c12c811e1269bc1fc1d9844d20 d245be0062fbf157986c2c57380910f84fb8e60f
+Auto-Built-Package: debug-symbols
 
