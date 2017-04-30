@@ -48,9 +48,9 @@ SHA1: c5633fe4ba871498cf30fc3532660b76ac434c34
 SHA256: 1b8aa39a849ff39e37774f5c2c5a56d97498623355d938eed14d453d3d2fa831
 SHA512: 28cdaf68e5984c06390fad87728f3404f80283df6304ea8d24453aee72f34b58f3fe99bc9bb930249e44a9ab1a11ef01cf13f968f4dab77aa6a0d971643bbd11
 Description: Debug symbols for android-tools-adbd
+Auto-Built-Package: debug-symbols
 Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
 Homepage: https://developer.android.com/tools/help/adb.html
-Auto-Built-Package: debug-symbols
 
 Package: android-tools-fsutils
 Priority: extra
