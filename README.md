@@ -1,3 +1,3 @@
-# Pre-repo for debian on phones
+# Repository of debian packages for phones and tablets
 
-I collect already existant packages and some I made for Debian and Plasma Mobile in this repo. You can rebuild them from here or make pull requests on my packaging repos on my github account. Of course you can use prebuild ones from here too, and add the repo to your system, but there aren't any available for arm yet.
+This is a collection of packages which may be helpful on Plasma Mobile, Halium based Debian systems and for developers working on those systems.
