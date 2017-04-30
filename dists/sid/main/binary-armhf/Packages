@@ -48,9 +48,9 @@ SHA1: 3096c0df9cbd1bbdaf356ebd8ee9752c2fd99b03
 SHA256: 46c38c95efd33a7a187e8b4cafe3caa963fa4a8a4e28937c9aa0c7ffabb6624c
 SHA512: 87c380d172fe2d2d3f73d5d29291862682b24ee64dc8367fdba05c305781b229b63a6b9ab41d1da8aca1dde3f9713478aa5c01a0894f8162b387f3e74a10f2f6
 Description: Debug symbols for android-tools-adbd
+Homepage: https://developer.android.com/tools/help/adb.html
 Build-Ids: 0d9fb21f10db16367b6498866c2b56a4e9196f03
 Auto-Built-Package: debug-symbols
-Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: android-tools-fsutils
 Priority: extra
@@ -133,8 +133,8 @@ SHA1: 81ac945b7f37240243424d43de6a7ca7236f61b0
 SHA256: 3af0df58f541380d72d1e10742e58089749342b877c303dc6d0a09303b8c0862
 SHA512: 071c6e347f681e6636f629a4a3e58370969d25816a906981bad9806e8541cd6895c42cc4657293fe2f524eaef8fc232d2d5b4c8add0f2f48defc9a4f1304afa1
 Description: Debug symbols for android-tools-mkbootimg
-Build-Ids: 679b85559f6cdd37df0957fd96b3c1e409121579
 Auto-Built-Package: debug-symbols
+Build-Ids: 679b85559f6cdd37df0957fd96b3c1e409121579
 Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: fingerterm
@@ -157,6 +157,141 @@ Description: Terminal emulator for touch devices
  As the name already tells, it's optimized for touch devices,
  like phones and tablets.
 Homepage: https://git.merproject.org/mer-core/fingerterm
+
+Package: kirigami-gallery
+Priority: optional
+Section: kde
+Installed-Size: 443
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: armhf
+Source: kirigami2
+Version: 2.0.0+git20170307.0340-0
+Replaces: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
+Depends: kpackagelauncherqml, qml-module-org-kde-kirigami2, libc6 (>= 2.4), libqt5core5a (>= 5.5.0~), libqt5gui5 (>= 5.5.0~), libqt5qml5 (>= 5.1.0), libstdc++6 (>= 4.1.1)
+Breaks: qml-module-org-kde-kirigami2 (<< 2.0.0-0neon+16.04+build3)
+Filename: pool/main/k/kirigami2/kirigami-gallery_2.0.0+git20170307.0340-0_armhf.deb
+Size: 164994
+MD5sum: bd79d8def4bf6f87ea449f8d47c80988
+SHA1: 9414b91702c46ff6e08cf0346a589f4f25463644
+SHA256: f38303c13dfcd00a0d95562ff79dc0a7dee3bba05463eff1c92f44aeffaf490d
+SHA512: f483640a9b98d073f35adba62afa1b2d453626592a9d780fdbd4568dbe67d4ac4e346fd4dc0c4b4c7dfdf4933f87b355f3f8525deb158dbe67ab78ca30029123
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the example application Kirigami Gallery.
+Homepage: https://projects.kde.org/kirigami
+
+Package: kirigami-gallery-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 112
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: armhf
+Source: kirigami2
+Version: 2.0.0+git20170307.0340-0
+Depends: kirigami-gallery (= 2.0.0+git20170307.0340-0)
+Filename: pool/main/k/kirigami2/kirigami-gallery-dbgsym_2.0.0+git20170307.0340-0_armhf.deb
+Size: 100716
+MD5sum: 44c7739aa9069ae9b9400346ea7a62dc
+SHA1: c65bd0623b59097c530e89cee5c01e039ed33e33
+SHA256: 13e9c85328f9a814b3e4e03b570acdc23b79c043fa9442cacd17f9d392443b16
+SHA512: 6bda6f32292c0ebf79d80a6108a4e6091de0a10c6b4a5c0421557196b22e470b38d9a0ec19c10ae0e9b40988e7dec8b3d21dd326fff3cc0c0e2a59f912b852d9
+Description: Debug symbols for kirigami-gallery
+Homepage: https://projects.kde.org/kirigami
+Build-Ids: ef1b3ed2ee791a3eb52f98187df483c3a2a86190
+Auto-Built-Package: debug-symbols
+
+Package: kirigami2-dev
+Priority: optional
+Section: kde
+Installed-Size: 26
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: armhf
+Source: kirigami2
+Version: 2.0.0+git20170307.0340-0
+Depends: qml-module-org-kde-kirigami2
+Filename: pool/main/k/kirigami2/kirigami2-dev_2.0.0+git20170307.0340-0_armhf.deb
+Size: 5538
+MD5sum: 94123f55976aea82cbb4e0809e2187ac
+SHA1: c998ebfeb0cb6fa603f6d2f0a335d09e7b4e7954
+SHA256: 7000100662eb169bed581fa9dbe3045dff1282fc99b23e2dc84573cbec379ba3
+SHA512: c5e9c6967a0e1ffd11ed67346a335e5eaffa0407eedfff6c4b180b4800e2b939dfada0e4f1fa028ca0398b0587cce8cf05d65cda41966fab96a5e1d6d2c2d6b5
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+ .
+ This package contains the development files.
+Homepage: https://projects.kde.org/kirigami
+
+Package: qml-module-org-kde-kirigami2
+Priority: optional
+Section: kde
+Installed-Size: 342
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: armhf
+Source: kirigami2
+Version: 2.0.0+git20170307.0340-0
+Depends: plasma-framework, qml-module-org-kde-kquickcontrolsaddons, qml-module-qtgraphicaleffects, qml-module-qtqml-models2, qml-module-qtquick-controls2, qml-module-qtquick-templates2, qml-module-qtquick2, libc6 (>= 2.4), libgcc1 (>= 1:3.5), libqt5core5a (>= 5.5.0), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.2.0~beta1), libqt5quick5 (>= 5.2.0~beta1), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kirigami2/qml-module-org-kde-kirigami2_2.0.0+git20170307.0340-0_armhf.deb
+Size: 53748
+MD5sum: 05f83cccef77a18a6f7a7ceedc92a7d2
+SHA1: 887a93c55fcb95c723a8d979f7bd5bda88f4ef77
+SHA256: 72a675a55d8fe96d82ee3b999aab55f04fce34ca360b77622f41afb1575dad85
+SHA512: 0ab6284ddfce5b304ed819aff02a2da8bd58f66bc5c3e0a5fb62c43c4fd85e6175a7a409f5a0e5cf7c584051aa0b124455fd0689a6372be4efc82dd1afa34020
+Description: set of QtQuick components targeted for mobile use
+ Kirigami is a set of QtQuick components at the moment targeted for
+ mobile use (in the future desktop as well) targeting both Plasma
+ Mobile and Android. A set of high level components to make the
+ creation of applications that look and feel great on mobile as well
+ as desktop devices and follow the Kirigami Human Interface
+ Guidelines. The target of these components is anybody that wants to
+ do an application using QtQuick as its main UI, especially if
+ targeting a mobile platform, without adding many dependencies. They
+ work on a variety of platforms, such as Plasma Mobile, Desktop Linux,
+ Android and Windows.
+Homepage: https://projects.kde.org/kirigami
+
+Package: qml-module-org-kde-kirigami2-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 658
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: armhf
+Source: kirigami2
+Version: 2.0.0+git20170307.0340-0
+Depends: qml-module-org-kde-kirigami2 (= 2.0.0+git20170307.0340-0)
+Filename: pool/main/k/kirigami2/qml-module-org-kde-kirigami2-dbgsym_2.0.0+git20170307.0340-0_armhf.deb
+Size: 637708
+MD5sum: fee3a5aaf27659ac6571b82e5ac4adff
+SHA1: a5b2bbe5875ef344a14b5d495aab23c6989040e0
+SHA256: 08f7ed7da5f78eede214917d0dfe1385ca905633db69b52946758adc5298e239
+SHA512: 76f1a06acc802ddec40f7ea1657fbde90809fc5a8f5c8ca00ceb61b0d619740e358fb34d704e26db5af60f74cc36cb6e7c95a4906e4b81c7e0e54b3a81945805
+Description: Debug symbols for qml-module-org-kde-kirigami2
+Auto-Built-Package: debug-symbols
+Build-Ids: f548aa815c1e4ba31bcc90ae7d7610bdfaaeccb6
+Homepage: https://projects.kde.org/kirigami
 
 Package: qmlplane
 Priority: optional
@@ -212,6 +347,6 @@ SHA1: 166b1c7067aaeb749b4b2013ef4a24ce77946ab7
 SHA256: ba7dcc4e793de7bce9200b4fd6f40ad89d07fe8ab8dc52a55d0f9065aab5192a
 SHA512: ad0eec1ea916faf51eeaecd20701300dfd376d9b62cd668726fae66987550f2e663920c2d63592b0f9cb0a2ec939f611249111bfe2ac3b1220678f04949710f9
 Description: Debug symbols for qtvirtualkeyboard
-Auto-Built-Package: debug-symbols
 Build-Ids: 2f0bf33d2e991f29556b713c5b61dcc3d25a8cc3 39ac5960b00826eb82a7fc6e9ae99f320130d0aa c2e4367027c12d7dd19ed6691bfdffd1c85ccfbe
+Auto-Built-Package: debug-symbols
 
