@@ -11,14 +11,6 @@ Files:
  0b28169acd2dda65009e81c6a1bbe83c 24440 android-tools_5.1.1.r38-1.debian.tar.xz
  2264dc810e138d3e97c0e9724ee80eca 2485 android-tools_5.1.1.r38-1.dsc
  c54fd2c09601e255c43ccc4444f71bbd 578140 android-tools_5.1.1.r38.orig.tar.xz
-Checksums-Sha1:
- 9a235ae4ab12a3070f7832b67bb641f6203f10db 24440 android-tools_5.1.1.r38-1.debian.tar.xz
- c741f1926f8377d499e589a279aa7724aabf7c4e 2485 android-tools_5.1.1.r38-1.dsc
- 650fc413f69aaca203ba607c3c179f020fba24a8 578140 android-tools_5.1.1.r38.orig.tar.xz
-Uploaders: Laszlo Boszormenyi (GCS) <gcs@debian.org>, Hans-Christoph Steiner <hans@eds.org>, Loïc Minier <lool@debian.org>, Ximin Luo <infinity0@debian.org>, Fathi Boudra <fabo@debian.org>
-Homepage: https://developer.android.com/tools/help/adb.html
-Vcs-Git: https://anonscm.debian.org/git/android-tools/android-tools.git
-Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-tools.git
 Checksums-Sha512:
  1a3cb6f59cafac865a28a48e0f5de1473d4a38a308a55dc26797031f31f6f8abf30eb22ed60eba9b3e493888fa82c3058954e825f492768f176131a1745d502e 2485 android-tools_5.1.1.r38-1.dsc
 Package-List:
@@ -29,6 +21,14 @@ Checksums-Sha256:
  aed38a412f23416c94b69d1cd33c3fcfcdf516a2c27b3115971c0db814fea9b7 24440 android-tools_5.1.1.r38-1.debian.tar.xz
  711fbcf37d77ef987d8f854102a88fbec2614a64e7af289a321d5819277a8d1a 2485 android-tools_5.1.1.r38-1.dsc
  fbd859d0457a414dc82244745fa110a5d4cf998a4a8c95f835477a89fca61ccc 578140 android-tools_5.1.1.r38.orig.tar.xz
+Vcs-Git: https://anonscm.debian.org/git/android-tools/android-tools.git
+Homepage: https://developer.android.com/tools/help/adb.html
+Vcs-Browser: https://anonscm.debian.org/cgit/android-tools/android-tools.git
+Checksums-Sha1:
+ 9a235ae4ab12a3070f7832b67bb641f6203f10db 24440 android-tools_5.1.1.r38-1.debian.tar.xz
+ c741f1926f8377d499e589a279aa7724aabf7c4e 2485 android-tools_5.1.1.r38-1.dsc
+ 650fc413f69aaca203ba607c3c179f020fba24a8 578140 android-tools_5.1.1.r38.orig.tar.xz
+Uploaders: Laszlo Boszormenyi (GCS) <gcs@debian.org>, Hans-Christoph Steiner <hans@eds.org>, Loïc Minier <lool@debian.org>, Ximin Luo <infinity0@debian.org>, Fathi Boudra <fabo@debian.org>
 
 Package: fingerterm
 Binary: fingerterm
@@ -44,10 +44,6 @@ Files:
  aa70fb847cefae83848d9c34a55d695d 1030 fingerterm_1.3.3-1.dsc
  3b4b9ee4fa63bdb6bd0cd31a7570bde8 42584 fingerterm_1.3.3.orig.tar.xz
 Vcs-Browser: https://github.com/jbbgameich/fingerterm-packaging/
-Checksums-Sha256:
- 6a8811095b5df05b7f7424af585ce4c0a35ec8dfc6edef7c21f9c0dbc0d44021 2352 fingerterm_1.3.3-1.debian.tar.xz
- 34c9e92c9b46026871f5a60c298d696a0572afafc7c60dbc2f17f48e312e5e6e 1030 fingerterm_1.3.3-1.dsc
- 3652d3039f75a34674fa8b3e8e7fc0d1565de4d4bbc47f403d38709d5398629d 42584 fingerterm_1.3.3.orig.tar.xz
 Checksums-Sha512:
  e2df8d3fd212af992efdf623ff1a97f6352cd53ffba1244f27f020ae8da2e2659ac93f15c8027f6f4f8f8590cd7f21c9151a1b44c1cd63a1579396e8935bb523 1030 fingerterm_1.3.3-1.dsc
 Vcs-Git: git://github.com/jbbgameich/fingerterm-packaging.git
@@ -58,6 +54,10 @@ Checksums-Sha1:
  51661a25dac2becc962a054fe73df4ddfaa07ca4 2352 fingerterm_1.3.3-1.debian.tar.xz
  217f8dbab150ae40d21f8ebbf9b159de8b518924 1030 fingerterm_1.3.3-1.dsc
  924e8a10ff28ef200ab5b0d407885629ceb502f6 42584 fingerterm_1.3.3.orig.tar.xz
+Checksums-Sha256:
+ 6a8811095b5df05b7f7424af585ce4c0a35ec8dfc6edef7c21f9c0dbc0d44021 2352 fingerterm_1.3.3-1.debian.tar.xz
+ 34c9e92c9b46026871f5a60c298d696a0572afafc7c60dbc2f17f48e312e5e6e 1030 fingerterm_1.3.3-1.dsc
+ 3652d3039f75a34674fa8b3e8e7fc0d1565de4d4bbc47f403d38709d5398629d 42584 fingerterm_1.3.3.orig.tar.xz
 
 Package: kirigami2
 Binary: qml-module-org-kde-kirigami2, kirigami2-dev, kirigami-gallery
@@ -73,24 +73,81 @@ Files:
  e7081fcdd58f9583efe0b37a2466251b 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
  6c1496d2f1a499cdd0e13ecac6465cd8 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
  7234bbe229c785f11db6d2591cd09f02 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
 Package-List:
  kirigami-gallery deb kde optional arch=any
  kirigami2-dev deb kde optional arch=any
  qml-module-org-kde-kirigami2 deb kde optional arch=any
-Checksums-Sha512:
- c7e3d09aab260cd3aa5f2702d55d8d292eec5a9036a6b67c367dfa0aaf21efea66bd86756b922c03a24f8542947b8b1070a4411f3fb646350f775f356a5b2ad1 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
-Uploaders: Maximiliano Curia <maxy@debian.org>
-Homepage: https://projects.kde.org/kirigami
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/kde-extras/kirigami.git
+Uploaders: Maximiliano Curia <maxy@debian.org>
 Checksums-Sha1:
  06a054f2da7ec346b45af3a85b0b08117444ccba 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
  03a41b8865c1f0f49acee261a929006176c64ae4 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
  f41245c3c9ad16f2bd2f925832b39f423280d3dd 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+Homepage: https://projects.kde.org/kirigami
+Checksums-Sha512:
+ c7e3d09aab260cd3aa5f2702d55d8d292eec5a9036a6b67c367dfa0aaf21efea66bd86756b922c03a24f8542947b8b1070a4411f3fb646350f775f356a5b2ad1 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
 Checksums-Sha256:
  85297734e5fee53004e891c12198781d028c9aa539c4fb78db970f003d59a1c3 4024 kirigami2_2.0.0+git20170307.0340-0.debian.tar.xz
  ca1c4eba063e3a47ce0bbc2f431d303f77d5a5f46b8c7ee0c80df6955743587c 1683 kirigami2_2.0.0+git20170307.0340-0.dsc
  a8081bc8c871cec2216ecee26082650e9fe18e59303261558088be2e390e35c7 261312 kirigami2_2.0.0+git20170307.0340.orig.tar.xz
+
+Package: kpeoplevcard
+Binary: kpeople-vcard
+Version: 0.0+p16.04+git20170117.1347-0
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake, debhelper (>= 9), extra-cmake-modules (>= 1.3.0~), libkf5contacts-dev, libkf5coreaddons-dev, libkf5people-dev (>= 5.12.0+git20150715), pkg-config, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/k/kpeoplevcard
+Files:
+ e21e4059f36ae1668e640a114f54f480 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ 1d79fb4db72d779112a8678a84c58525 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ 48eaab52f59ec8af85a2f8c25344de22 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha1:
+ 4482ee355b52bdf5c9dc23b9f10fc1fc452e2d5e 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ 493ebb3b26f318a37eeb33f866b5837d535c89d9 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ fc0e99f8e8658615f2a99863f1e256a03eefa324 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha256:
+ 5ae9d9c4fb2890125de38d773c3c5f086cdcdf4f290b6a27103973b0347e40e8 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ c5e74ecb53dcdf8ebf952c83214abf65177a543963c05a8ff6ad6efb55c358d4 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ d8b33491b5c1480d1951813b6f38623e74cd165e4bc64d718207c5f47d6ca7e5 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha512:
+ e5c63e8e61dfa26a4b45a78f346d11eff688e218a2b95d9289f29a561f5bb8a71116766820c8ea736f4b5cc110ca8d3e0b0b4c494f6f7acc5e39ae6fd5f86122 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+Package-List:
+ kpeople-vcard deb kde optional arch=any
+
+Package: plasma-phone-components
+Binary: plasma-phone-components, plasma-phone-components-dbg
+Version: 0.7+kubuntu1-0ubuntu1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake, debhelper (>= 9), extra-cmake-modules, kwayland-dev, libkf5declarative-dev, libkf5notifications-dev, libkf5people-dev, libkf5service-dev, libsystemd-dev, libtelepathy-qt5-dev, pkg-config, pkg-kde-tools (>= 0.9), plasma-framework-dev, qt5-default, qtdeclarative5-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/p/plasma-phone-components
+Files:
+ 571c8e23419bfcd77482d69f95d7fe09 2276 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ 96843a5ecea8051b706daf3f8c3dded4 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ 10910d920c9ee0b4f9be6340f5a58587 3129816 plasma-phone-components_0.7+kubuntu1.orig.tar.gz
+Homepage: http://plasma-mobile.org
+Checksums-Sha512:
+ 9ba4618c7519c01d891b8e5ad249ca159e8792a7069111ab3d8eb893ab82e9afb439c0235551c251df5182453b95f7fad23900b2823ba7c98462cfe2c4049e82 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+Vcs-Git: https://github.com/JBBgameich/plasma-phone-components-packaging.git
+Vcs-Browser: https://github.com/JBBgameich/plasma-phone-components-packaging
+Checksums-Sha1:
+ bddcc03ad85c56dca68056beaed8f9d98e70bf5f 2276 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ 35d073ded6fa1ec4e6c70994c3bbda1926dc3e7f 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ 9cb57468d45a856fe5821f32a8c46fe6ed315999 3129816 plasma-phone-components_0.7+kubuntu1.orig.tar.gz
+Checksums-Sha256:
+ 3881d3cd1659529150575dd179054b629f4ad767addecaa94cfbc4f43f3d9ae8 2276 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ ee60ba810e04832f690c677cbeec13a83efc657de639f164ba986aef5b45e716 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ b8165132543ecef245ed1a88d3707f0f78a4e8e7741dc208643cd104d2c894eb 3129816 plasma-phone-components_0.7+kubuntu1.orig.tar.gz
+Package-List:
+ plasma-phone-components deb kde optional arch=any
+ plasma-phone-components-dbg deb debug extra arch=any
 
 Package: qml-box2d
 Binary: qml-box2d
@@ -105,8 +162,6 @@ Files:
  230ea532a4b8aa8a3ac033fd381aae93 772 qml-box2d_2.0.0-1.debian.tar.xz
  b89bf85d22e3287653d03d7a3f6802f8 828 qml-box2d_2.0.0-1.dsc
  5eac13c15da68678555d87515cfb3fc0 2009316 qml-box2d_2.0.0.orig.tar.xz
-Package-List:
- qml-box2d deb libs extra arch=any
 Checksums-Sha1:
  0362c967c79481049fb3e08763d5c6fa199f766c 772 qml-box2d_2.0.0-1.debian.tar.xz
  d1a08545c0fe919cfb83dea2420c7a0c18a2435f 828 qml-box2d_2.0.0-1.dsc
@@ -115,6 +170,8 @@ Checksums-Sha256:
  e143660b9409d590dbb14b04ca391062fbb9ed95bb1a0e1e6107f62a855bb3e2 772 qml-box2d_2.0.0-1.debian.tar.xz
  31ef537755696d323677d6e5e56ad00e9fe59f749b4ca7dffc55148d03de9597 828 qml-box2d_2.0.0-1.dsc
  ab1e54d8e5478509b26f9c1b0dfdd9ecf6d37d918a1ab99d411874d9281849f3 2009316 qml-box2d_2.0.0.orig.tar.xz
+Package-List:
+ qml-box2d deb libs extra arch=any
 Checksums-Sha512:
  3cba887ca9fe8acd1cfb1cefc9d87d5b8d6a7673f971de00ea63ec88fc27a70944245545802965b0929ea3528b49772f5f8fa1a1f687241b1fca406e88bf0fc9 828 qml-box2d_2.0.0-1.dsc
 
@@ -130,13 +187,13 @@ Directory: pool/main/q/qml-box2d
 Files:
  f5e22587e1f45f4a45f285ee14f7c1fc 577 qml-box2d_2.0.0.dsc
  c3a8f7edf6ba4da20218c2c4eafb8529 4487986 qml-box2d_2.0.0.tar.gz
-Package-List:
- qml-box2d deb libs extra arch=any
 Checksums-Sha512:
  6f1026f789879062540db322c3cf97d75e936ec16dd61c813a485d169c74f231175c3866534baed4dbe316a540fa31a1426243635f74e96e3cdeb156792391aa 577 qml-box2d_2.0.0.dsc
 Checksums-Sha1:
  c070031450f58ad78e3be77b8decbd4e33502033 577 qml-box2d_2.0.0.dsc
  4d5da449300896a19a9f06d08eb5f9a3ce673063 4487986 qml-box2d_2.0.0.tar.gz
+Package-List:
+ qml-box2d deb libs extra arch=any
 Checksums-Sha256:
  b8ff5fd21f51c65dab74680d16f286ed264c89164a230ecc4a0b9312304156b4 577 qml-box2d_2.0.0.dsc
  752865cc211811c71cea2383ffa9cb78fa8192a6fb3a1cc8d15fa444b9088093 4487986 qml-box2d_2.0.0.tar.gz
@@ -154,17 +211,17 @@ Files:
  392117953a894d861cf4aa72f69cd123 23288 qmlplane_1.1.0-1.debian.tar.xz
  42fce3901e1b839bdf838c611c6cef3a 1045 qmlplane_1.1.0-1.dsc
  a656c530a3c9a14459909b0733ea268f 3503828 qmlplane_1.1.0.orig.tar.xz
+Homepage: https://github.com/olegyadrov/qmlplane
+Vcs-Browser: https://github.com/jbbgameich/qmlplane-packaging
+Vcs-Git: https://github.com/jbbgameich/qmlplane-packaging.git
+Checksums-Sha512:
+ c1ceddfa370133b1a8c729ca3b692655640ef3f294b7f7b0c10653aa53606d2f5fcd965e48264a0b3c5b17af60f1e6c5196f06fa5e960e2ad6e3fd3f74678db7 1045 qmlplane_1.1.0-1.dsc
+Package-List:
+ qmlplane deb games optional arch=any
 Checksums-Sha256:
  ae1d863696417ca1e90ad050387af0bfd55d151bd7b770385ec27a51966ac75f 23288 qmlplane_1.1.0-1.debian.tar.xz
  b4e9d90d34b414c933828d29fca7785dc9ba21f060f22a43c5ace990835f338b 1045 qmlplane_1.1.0-1.dsc
  d7643e5e918fe6f5cae26591a5f503be33e430272a8d5344187ef17366e09e43 3503828 qmlplane_1.1.0.orig.tar.xz
-Checksums-Sha512:
- c1ceddfa370133b1a8c729ca3b692655640ef3f294b7f7b0c10653aa53606d2f5fcd965e48264a0b3c5b17af60f1e6c5196f06fa5e960e2ad6e3fd3f74678db7 1045 qmlplane_1.1.0-1.dsc
-Homepage: https://github.com/olegyadrov/qmlplane
-Vcs-Git: https://github.com/jbbgameich/qmlplane-packaging.git
-Vcs-Browser: https://github.com/jbbgameich/qmlplane-packaging
-Package-List:
- qmlplane deb games optional arch=any
 Checksums-Sha1:
  902357ca04e55078b8f1ce13499b6ad4ad4871a7 23288 qmlplane_1.1.0-1.debian.tar.xz
  57a8afb01f91d3171b4effb608fce1c0d640e970 1045 qmlplane_1.1.0-1.dsc
@@ -186,14 +243,14 @@ Files:
  fa473ab9175483dd82aa4d27b9682715 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
 Checksums-Sha512:
  926419607510e35aadcb73ebbbf3e0ae9310cec745f5b4bee3f714faeea87836ca54be6b35374a9d4676334b2d377dcbac9abd2fab4114c1f84b6c31996de8e6 1071 qtvirtualkeyboard_5.7.0-0.dsc
-Checksums-Sha1:
- f1cf47cd4509d40d310a52839922d03a92a41804 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
- e53b6312e432c61eb2c05127a09191be12838c68 1071 qtvirtualkeyboard_5.7.0-0.dsc
- 893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
+Package-List:
+ qtvirtualkeyboard deb unknown extra arch=any
 Checksums-Sha256:
  2ba75f828a29cb65906ea3c585cc23ad25801cd7a4b28846770da9aaee39fddf 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
  33185fe3570195642e7d1679864e5a4407cc98f1077e4fab4842b1b528a58bf8 1071 qtvirtualkeyboard_5.7.0-0.dsc
  df433de68e23b173b87b422038bc9f3e53349035c11a2b2e495122274664ff2f 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
-Package-List:
- qtvirtualkeyboard deb unknown extra arch=any
+Checksums-Sha1:
+ f1cf47cd4509d40d310a52839922d03a92a41804 1308 qtvirtualkeyboard_5.7.0-0.debian.tar.xz
+ e53b6312e432c61eb2c05127a09191be12838c68 1071 qtvirtualkeyboard_5.7.0-0.dsc
+ 893755ccf1d3133d88203ced814e11684eb2cb27 10029524 qtvirtualkeyboard_5.7.0.orig.tar.xz
 

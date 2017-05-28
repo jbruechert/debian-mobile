@@ -49,8 +49,8 @@ SHA256: 1b8aa39a849ff39e37774f5c2c5a56d97498623355d938eed14d453d3d2fa831
 SHA512: 28cdaf68e5984c06390fad87728f3404f80283df6304ea8d24453aee72f34b58f3fe99bc9bb930249e44a9ab1a11ef01cf13f968f4dab77aa6a0d971643bbd11
 Description: Debug symbols for android-tools-adbd
 Build-Ids: 613c199c4fc6c39cfb155a507eb288f629d7b1d2
-Auto-Built-Package: debug-symbols
 Homepage: https://developer.android.com/tools/help/adb.html
+Auto-Built-Package: debug-symbols
 
 Package: android-tools-fsutils
 Priority: extra
@@ -91,9 +91,9 @@ SHA1: e6a13bfbdaab8c739c95703b678c4712d8bf028a
 SHA256: d6b00994c2b86514247f18e420ba8a6af357666eaf06966dd2618d2cfbbb0d9d
 SHA512: dc7571826a11484c560aac502e07275a029af11c8bbf427cef0d4921d9ba13e8b08bf64a3ca33c348e0714fb401cb2f1d7ebba56fb2636d6322b7e843e49d924
 Description: Debug symbols for android-tools-fsutils
-Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
 Build-Ids: 23ccbdb89a5e6e5733c27678e1100d01ff4cf0d4 643fa6185b4240468a5dbb78a63f64d0e8b82859 85e40ef47272ab25dc95dedd7511553aca698ab4 903f411c71fbc8b3dcf803c3c7fb0a9ef2246765 9095c92f2d509cec103827c36fc24cc604dba300 db8ed6a4f65eb06c410b3d7a770239eaafd9f714
+Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: android-tools-mkbootimg
 Priority: extra
@@ -133,9 +133,9 @@ SHA1: 6234c835232c1c76104c4129c954e78582d8d71b
 SHA256: ecc9bd41834574ce27135d53322b4200bd1c83e71ce4b568915aef2908ed97a4
 SHA512: f412af98a83d93b6b1ff79d1bfeb711a6226d70d3ffcf23eec65cab272e309fa9d63f09ab7055c868bbca5e17f9a66a511688b6d86836ac3e2af75990bdc8ed0
 Description: Debug symbols for android-tools-mkbootimg
-Homepage: https://developer.android.com/tools/help/adb.html
 Auto-Built-Package: debug-symbols
 Build-Ids: 8f28aaf43c397f73975dee969724964435377fc8
+Homepage: https://developer.android.com/tools/help/adb.html
 
 Package: fingerterm
 Priority: optional
@@ -208,9 +208,9 @@ SHA1: 6bcb72cfdf917b4a4ba570791d1b2e18ca3a3b12
 SHA256: d4c18981bd291b75f80f3d1c7e24ff1d2d757a27305bc1fad9cbc27d6f45b1e2
 SHA512: 6202e285e567eb342e925426296726d18a548a9cde213a5b9a6fe1e4aa25649f0068a5a0fa61f8110e8701ac9aa360e90924bfd064cf8663b423c418567ffa86
 Description: Debug symbols for kirigami-gallery
-Build-Ids: 06e6684f443e6fa4fad19948d34c2063b96e1ec8
 Homepage: https://projects.kde.org/kirigami
 Auto-Built-Package: debug-symbols
+Build-Ids: 06e6684f443e6fa4fad19948d34c2063b96e1ec8
 
 Package: kirigami2-dev
 Priority: optional
@@ -242,6 +242,99 @@ Description: set of QtQuick components targeted for mobile use
  .
  This package contains the development files.
 Homepage: https://projects.kde.org/kirigami
+
+Package: kpeople-vcard
+Priority: optional
+Section: kde
+Installed-Size: 62
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kpeoplevcard
+Version: 0.0+p16.04+git20170117.1347-0
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 15.07.90), libkf5coreaddons5, libkf5peoplebackend5, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+p16.04+git20170117.1347-0_amd64.deb
+Size: 15390
+MD5sum: 7a2cb9a4c6cdbdd5a4d32a427e02be0b
+SHA1: 7220c62805c7545a649c5f1c1c305d95c76d402a
+SHA256: fe9bf4ca5d0f399d83c1a54a3bcdaa1a38d94e5f6aa98ff457c15b07c9f7e0e8
+SHA512: eb9c49c82e8e5ec190e515d947a2cc65b1e73bd7b75dc479b51289a845c7f479c5219467a6e23d7a4d7b5d9bfd652934fc447ab078faf215afeeba4b6eee2bd4
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
+Package: kpeople-vcard-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 347
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kpeoplevcard
+Version: 0.0+p16.04+git20170117.1347-0
+Depends: kpeople-vcard (= 0.0+p16.04+git20170117.1347-0)
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+p16.04+git20170117.1347-0_amd64.deb
+Size: 330224
+MD5sum: eb79006b8ee27198d8e7cccc75091bfc
+SHA1: 753ab1685603e5040137a65f8cfef6bdfb3733f9
+SHA256: cb240f1e571bbdbb52e2bd192e07ca214a48f43d63b2a2ea0d58b3c73cd2c67c
+SHA512: ce346c37ed8be4d4c83c628952a86b51812aac224f8db04e000d0f8b222d0dad9a5ead4b693b26d70fcaec1565217100c0d6b494523b831331045492aa2f9745
+Description: Debug symbols for kpeople-vcard
+Auto-Built-Package: debug-symbols
+Build-Ids: 60e62ac397ed85722d538d303495d284f3887655
+
+Package: plasma-phone-components
+Priority: optional
+Section: kde
+Installed-Size: 3746
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Version: 0.7+kubuntu1-0ubuntu1
+Depends: breeze-icon-theme, milou, phonon4qt5, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kquickcontrols, qml-module-qtquick-localstorage, ttf-oxygen-font-family, kpeople-vcard, libc6 (>= 2.14), libkf5configcore5, libkf5coreaddons5, libkf5dbusaddons5, libkf5declarative5, libkf5i18n5, libkf5kiowidgets5, libkf5notifications5, libkf5package5, libkf5people5, libkf5peoplebackend5, libkf5plasma5, libkf5service5, libkf5waylandclient5, libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+kubuntu1-0ubuntu1_amd64.deb
+Size: 1739542
+MD5sum: 0b5b9a466325875c7e1ea1560e91d799
+SHA1: dedb791c1aa760ab6184e712b18cbe2fea28a8e4
+SHA256: 9a1765d9d680b44569d08d507dff5fb1a43f16c4185d09b4c67004deb7bc60e9
+SHA512: 0ba5dad833b0589242ce8c3a72d90b9ae769fef833e2109c8285db284585da51d458e1b5d875b1ccbd84bf64bfc23015edae979699bebdddc4c0c2e7fdc652f2
+Description: Plasma home screen for phones
+ Using the multi-platform toolkit Qt,
+ the flexible extensions of KDE Frameworks plus the power of Plasma Shell,
+ Plasma Mobile is built with technology
+ which feels equally at home on the desktop and mobile devices
+ .
+ Being based on the most flexible desktop in the world
+ means you can truly make your phone your own
+ .
+ Add and modify widgets, change colour schemes, fonts, and much, much more
+Homepage: http://plasma-mobile.org
+
+Package: plasma-phone-components-dbg
+Priority: extra
+Section: debug
+Installed-Size: 2106
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: plasma-phone-components
+Version: 0.7+kubuntu1-0ubuntu1
+Depends: plasma-phone-components (= 0.7+kubuntu1-0ubuntu1)
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbg_0.7+kubuntu1-0ubuntu1_amd64.deb
+Size: 2059394
+MD5sum: c822b8ef26944d521934516ab4324e54
+SHA1: 819c80c125bf9c6237058a0028f54d392c5de050
+SHA256: 0cfac7cd24735730f906756b9a7ffa8659af61da94ca2b4a347ee415328924e5
+SHA512: 464eb16694c0e0a1d3a62140b6ccc47409a5de2dadeaedd9d0370517fb28128c67d7149300fb419734f04e36f15d11714d35e694b256947b09644f07108c8835
+Description: Plasma home screen for phones
+ Using the multi-platform toolkit Qt,
+ the flexible extensions of KDE Frameworks plus the power of Plasma Shell,
+ Plasma Mobile is built with technology
+ which feels equally at home on the desktop and mobile devices
+ .
+ Being based on the most flexible desktop in the world
+ means you can truly make your phone your own
+ .
+ Add and modify widgets, change colour schemes, fonts, and much, much more
+Homepage: http://plasma-mobile.org
+Build-Ids: 19cec2c1aa5bc528f5cdbaf4650c66611b8fb58c 1a3795849c514139ef41f09faa10dc29dd8103fd 4c1373fda68a1e814d89850483fe340c9b023488 d6e684d7d9d51973bb83e740ddb578ca32ba4b70
 
 Package: qml-box2d
 Priority: extra
@@ -307,9 +400,9 @@ SHA1: da1bff5a3ba6a4f9a325e0bd447560ef4e9b16ee
 SHA256: 9e50f5756ede3b02444cd8fca395047be0e4d3aac548a37da5ff991d3dffce4a
 SHA512: 1432569633fb9c9e9c7beb7efae8691bc476facc8c0f4102c8aa0180f42ee5af6f3fd13d909966ad6b52dae560b90c7b01e5b4ccf3c33ccb4760d30cdbaa1c46
 Description: Debug symbols for qml-module-org-kde-kirigami2
-Auto-Built-Package: debug-symbols
-Build-Ids: 3aed1bc5b9043c719343996ae34d1c0e99936e8a
 Homepage: https://projects.kde.org/kirigami
+Build-Ids: 3aed1bc5b9043c719343996ae34d1c0e99936e8a
+Auto-Built-Package: debug-symbols
 
 Package: qmlplane
 Priority: optional
