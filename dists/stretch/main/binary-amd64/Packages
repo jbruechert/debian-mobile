@@ -1,0 +1,805 @@
+Package: android-headers
+Priority: optional
+Section: libs
+Installed-Size: 2320
+Maintainer: Mobile CI <kubuntu-ci@lists.launchpad.net>
+Architecture: all
+Version: 5.1+p16.04+git20170529.0915-0
+Filename: pool/main/a/android-headers/android-headers_5.1+p16.04+git20170529.0915-0_all.deb
+Size: 317372
+MD5sum: 628bb0f5a40ac972fca3c88804653463
+SHA1: a957ab17be66a12f4a2147e498ee146fcac17496
+SHA256: cfc1ca8b786423a08ff91d3459db2951e136b2f67df26f8c9e9f42a91a7d4008
+SHA512: 999e5bb9136b3f88228207cc6c1d8ce36989db47a900367c41e69d842a6123dc9f8c79d23d0defbec6f260112754db88e4ad296a82ac4406c5950a8f1a49cd8e
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of AOSP (Android Open Source Project), for the 4.4.2 release
+Homepage: https://github.com/Halium/android-headers
+
+Package: kpeople-vcard
+Priority: optional
+Section: kde
+Installed-Size: 62
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kpeoplevcard
+Version: 0.0+p16.04+git20170117.1347-0
+Depends: libc6 (>= 2.4), libkf5contacts5 (>= 15.07.90), libkf5coreaddons5, libkf5peoplebackend5, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard_0.0+p16.04+git20170117.1347-0_amd64.deb
+Size: 15390
+MD5sum: 7a2cb9a4c6cdbdd5a4d32a427e02be0b
+SHA1: 7220c62805c7545a649c5f1c1c305d95c76d402a
+SHA256: fe9bf4ca5d0f399d83c1a54a3bcdaa1a38d94e5f6aa98ff457c15b07c9f7e0e8
+SHA512: eb9c49c82e8e5ec190e515d947a2cc65b1e73bd7b75dc479b51289a845c7f479c5219467a6e23d7a4d7b5d9bfd652934fc447ab078faf215afeeba4b6eee2bd4
+Description: kpeople plugin for vcard
+ This plugin lets kpeople read the vcard format.
+
+Package: kpeople-vcard-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 347
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: kpeoplevcard
+Version: 0.0+p16.04+git20170117.1347-0
+Depends: kpeople-vcard (= 0.0+p16.04+git20170117.1347-0)
+Filename: pool/main/k/kpeoplevcard/kpeople-vcard-dbgsym_0.0+p16.04+git20170117.1347-0_amd64.deb
+Size: 330224
+MD5sum: eb79006b8ee27198d8e7cccc75091bfc
+SHA1: 753ab1685603e5040137a65f8cfef6bdfb3733f9
+SHA256: cb240f1e571bbdbb52e2bd192e07ca214a48f43d63b2a2ea0d58b3c73cd2c67c
+SHA512: ce346c37ed8be4d4c83c628952a86b51812aac224f8db04e000d0f8b222d0dad9a5ead4b693b26d70fcaec1565217100c0d6b494523b831331045492aa2f9745
+Description: Debug symbols for kpeople-vcard
+Auto-Built-Package: debug-symbols
+Build-Ids: 60e62ac397ed85722d538d303495d284f3887655
+
+Package: libandroid-properties-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 46
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libandroid-properties1 (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+git20170522-1_amd64.deb
+Size: 16538
+MD5sum: c8749b1e3dbf6a3e7e118468766d300c
+SHA1: 1a51aa2ba5f3f2d094bdd675c78ce5cb723678a3
+SHA256: f4077a2ea8f534be1a0ff7eed1893f927f1712bd3b88969e363db2340616a257
+SHA512: d217ffb5a487e519e22461b526cd4b98f9b88d662c3365466eb0aedb5e4e5f54e1b46e2bfa4615eef9ec7c04cf089bc7e6fb7a3c164952be177f8d90800473c8
+Description: Development headers files for libandroid-properties
+ Contains the development files for use in applications that wants to get,
+ set or list the Android properties.
+
+Package: libandroid-properties1
+Priority: extra
+Section: libs
+Installed-Size: 56
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libc6 (>= 2.17)
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+git20170522-1_amd64.deb
+Size: 20778
+MD5sum: 5952f8f295236e0bda8fd795569ab1ca
+SHA1: c17748853423ccd7bb4bc97f27d39c12df02d846
+SHA256: 9f992cb50c0f893efa7ce63c6b174b136c26311383c300bd537746236c905166
+SHA512: 51ebd50c373735e6b14e5e941ddf87514f5a6e534d606f8af03596a55b50fa4048cd98150365130af807dac4e25a79d1789fa41c46371f68e1a6f28f7c37d77b
+Description: Library to provide access to get, set and list Android properties
+ Contains a library that provides access to get, set and list Android
+ properties, which can be used by any Ubuntu app that needs to probe
+ for properties (gps, modem, device specifics).
+
+Package: libandroid-properties1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 31
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libandroid-properties1 (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 15480
+MD5sum: 487b59145fd2e38a3e810c7a5694f6d5
+SHA1: fb68cd5e365563034946b9699b951b9c263ad2d7
+SHA256: dee8d5b67c4b1a20b3fea653a9cc4da2436c4ebff293bedaa2da94d667f6014b
+SHA512: d59b7f14767039e017540dc42dab5ef70f53b8eab7eeebaacbd87db1f2e9d4a336bad2fd65b85781ea578426fa773897e3074327b0109af355bb57329e7d0c59
+Description: Debug symbols for libandroid-properties1
+Auto-Built-Package: debug-symbols
+Build-Ids: 7c45218d2c4d5495a786ead82a53240cc8e4425e
+
+Package: libhardware-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 41
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libhardware2 (= 0.1.0+git20170522-1), android-headers (>= 4.4.2)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+git20170522-1_amd64.deb
+Size: 16074
+MD5sum: fe0bf5894ca427052331b193fced1a83
+SHA1: caf178ea5d16b25b39a47c7ee4022f12b754ff2a
+SHA256: 4cb528bf70c53e0fea3d2075fd89e708c7f9de7afb52cae810af3e87ed085edd
+SHA512: 3fb1d208839ebcaa732a9a78de35af98109b561bb2dab040a1c73c8be19497353c3f2a70017f3e9a6bade70e3b329907bb508bebdf24add1a3c348d8d81c6c41
+Description: Development files for libhardware
+ Contains the development files for the Android libhardware HAL, which can
+ be used to access a wide range of other HALs, such as audio, power,
+ gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2
+Priority: extra
+Section: libs
+Installed-Size: 48
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libc6 (>= 2.2.5), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+git20170522-1_amd64.deb
+Size: 17596
+MD5sum: 265ff68200f80f8bba4da8481778caa2
+SHA1: f24c5c8ac4180b6bfa1f40a17a8434bd2aa3349b
+SHA256: ec316d9ab90058678d6d2629e9b6f531d4e5f2d28000df1004f60d9d81edd0e2
+SHA512: 632375e2fc41682e15b542cb89781332588a1c352cdb6e4c9a94efc300e3c0b89ede3820499a69b8cbd83b8ae10e9064247f1421dcd9bf907b4273bec8af74f1
+Description: Library to provide access to the Android libhardware HAL
+ Contains a library that provides access to the Android libhardware HAL,
+ which can be used to access a wide range of other HALs, such as audio,
+ power, gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 17
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhardware2 (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 3810
+MD5sum: 6699489cfd82a2329fbf0efdcfcedb97
+SHA1: e3297f6eba115214568b73fce9504b2c581e587b
+SHA256: 89ad631c1496ece8c5336619cd863bb71f15b6f48c8aa440798c7524dde3773a
+SHA512: 992d112af207015523c1b77ce6122018e7acf1922a88b1f6077e7a189cbaf67611a8342d837347404ca2d59324274c3d9c9c050b7491e37008dfbec4e832e84e
+Description: Debug symbols for libhardware2
+Auto-Built-Package: debug-symbols
+Build-Ids: 6eac812a11cf5dcae587b309e54fe2c3f6a118fc
+
+Package: libhybris
+Priority: extra
+Section: libs
+Installed-Size: 560
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Version: 0.1.0+git20170522-1
+Depends: libandroid-properties1 (= 0.1.0+git20170522-1), libhardware2, libmedia1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+git20170522-1_amd64.deb
+Size: 105718
+MD5sum: 90da8905ffc7a7990295735713a7bb21
+SHA1: fbae14f101e9047933557d94570c21a27f35a93e
+SHA256: 959bb2e9092aac47272207acb1f7282bb0c3671798b14f6b156a83fc859d5168
+SHA512: 35f72aa2b387a2b82cd9f6206acfc35eb397991257b2bf57eaee84dae0d013d47da293686a8fa6fc30d1f8c6c8bd5d169646bfde7dbff5041f01bb07b4c9031b
+Description: Allows to run bionic-based HW adaptations in glibc systems - libs
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 39
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libhybris-common1 (= 0.1.0+git20170522-1)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+git20170522-1_amd64.deb
+Size: 15838
+MD5sum: d63148ce02c3ae941d74f0854ef0a80d
+SHA1: 85f9d1bf8b941414a842cb85181edcec2be01c06
+SHA256: fb31470effe96ae39978bd79df603e22d9d0ea2f46076b77df47ef3740b6fd6c
+SHA512: fc7c04c3da051b2872f93cef00c3959e395bf048c5b336e002d9994b8779e245b3a253c1d1b8b857b00551fba6b5f645951c5839cbba5eae7b3fff248127eb3f
+Description: Development files for libhybris-common
+ Contains the development files for the common library that contains the
+ Android linker, used to dynamically load and use symbols from Android
+ based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1
+Priority: extra
+Section: libs
+Installed-Size: 167
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libandroid-properties1, libc6 (>= 2.22), libstdc++6 (>= 4.1.1)
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+git20170522-1_amd64.deb
+Size: 46502
+MD5sum: 19bf9386724bb293ab07020cf909186c
+SHA1: 394ea32019efcdc3e8b83f7af5caa6e97a19c073
+SHA256: eeb102c35d3cd9390494e990050378f2b88fc6ad0b12309b84e27b7e3dd09a18
+SHA512: 5fcdc14e44f0ded978cd1b97ecae44020236c69f332c180465908a539efe256cd3b7f55b3524ec3c2043b100b76446cb1ee9b08ff59efd976998b39eb09abdbc
+Description: Common library that contains the Android linker and custom hooks
+ Contains a common library that contains the Android linker, used to
+ dynamically load and use symbols from Android based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 128
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris-common1 (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 85714
+MD5sum: c171a6e6543a78557da1f2f00f70917d
+SHA1: 58d9d5fb7d22f5f17b7bc6ee0385441b62b2f17c
+SHA256: 9d6707bd47f38b803c78d9e8875d51d32e92a025b87965582abe7eeeb534abd0
+SHA512: 3c6819c6423f5d413304d78ec72ee442a44f08f7f9b09671321571fa6a2022617eb817208a55f940b9a6f2945717f7bc55d28bd65b7fcdb40be9721a03a15b5f
+Description: Debug symbols for libhybris-common1
+Build-Ids: 2e0a3647b3a4ba665930f6b39398af20f46e8295 e62bbca95584d383e3aacc470259edda9bd7efd5
+Auto-Built-Package: debug-symbols
+
+Package: libhybris-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 609
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 391972
+MD5sum: a46bc54c35e2d6087c298331b6414bc2
+SHA1: 4154a2cc84af6ecf3e2056f198f1b4ac6b0eb91d
+SHA256: f96c5d18d2345a32367dbe799ad4c8ad75331b95f42f14fdaf7a95bccb53b23a
+SHA512: 36d973e61adc1c0e4b35e9d69c36304f1176d3c74baabc3ca55be8acba9d6aab8b320859c883a93a28841fd7d8d90a30083482470279f06ce0ab16c99f73c00b
+Description: Debug symbols for libhybris
+Auto-Built-Package: debug-symbols
+Build-Ids: 00b25bacc1d3fe84a039b7280e25a8117d7f72a8 052cb2b090012139438dc338d850edd95c6bddcc 079f545f5b6eb44b1b42dbeec0472100d3eb1636 0d1c485a860c4a695cd6e24239cdb3b711feac06 0eaf479ecf2b391377ac3ab5066b096a3ab185fc 14257e13283baced1ccc70e1433d08dbf0401594 2277d3171d422b85ad0d54691a910d6393cd311d 32b70f4759106d9d74d11f4ea3f06d8ae608c848 78905df09d088e585b16be34f410929932ae2536 8b1594e8c9413c12321eff8a7de670c5117c1b9b 92acec22c6c8ccb015a11a2911798fa3bfd2d7ad a3b7fb54e8dfde52dbbaddd5abfd944ce7f180b6 a83be96ed6fbe85dc231cc2dc9eeea8208dbb001 c3e0816447fbfba1ba0793d94ace197222aeec75 cca7facc3e33aa117f8098f1f9278316b575af2a d045f4648a6931dfd2e92e6b279613081a880903 d4abd2d455272d83d5d2eaca280b95896e425d0e fd01781753ea8604a37809a30078227a2baecfc7
+
+Package: libhybris-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 180
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris (= 0.1.0+git20170522-1), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+git20170522-1), libhardware-dev (= 0.1.0+git20170522-1), libmedia-dev (= 0.1.0+git20170522-1), libhybris-common-dev (= 0.1.0+git20170522-1), libgles2-mesa-dev
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+git20170522-1_amd64.deb
+Size: 34512
+MD5sum: ad285dd0fc9286c79f26c5db9b881ed0
+SHA1: 555eea20a4e1c9d4f40891cd0d6894adb63eb99f
+SHA256: 05704beb6cb304145e84e128abf9530c4ffbd40eb4be45a3d97959639d2e508e
+SHA512: 64fe27178b8fcaf820a0242becaca8d1ffd73bc37fcfd773a5505975af5c07c1f2d3f95dbe897c6388aeef7926643f9b90585751ec1fcc90ad0ec0e67387b22a
+Description: Development headers and libraries for libhybris
+ Contains the header files for use in developing applications that use
+ the libhybris library.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test
+Priority: extra
+Section: devel
+Installed-Size: 234
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris (= 0.1.0+git20170522-1), libc6 (>= 2.4), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgcc1 (>= 1:3.0), libgles2-mesa (>= 7.8.1) | libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5)
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+git20170522-1_amd64.deb
+Size: 49774
+MD5sum: 30f9629aeca582afe1467b8e7a3d3bfc
+SHA1: d50b896fd7223ae4a3cb3be4fef07b42659bdc5b
+SHA256: 52d6584f0b8b833bae650d6492b9a7a831ee9054bb51488a6b970c66e49c0b72
+SHA512: 2f6b1f245340bc8cef1052b5e3cf3786e4958a98a5bf961adea40f334f500506ce3e15753fcbdeb6e773a2686721de67ff08f304cf0a48be2c88fdb0ca46ec8a
+Description: Allows to run bionic-based HW adaptations in glibc systems - tests
+ Contains the test applications used to validate libhybris (needs Android
+ libraries or container).
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 248
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris-test (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 124150
+MD5sum: 74a9ac39b58566f36bb7a7c1e53a6c38
+SHA1: 6f245e42babdfb5084121568cd9a35f607fe454b
+SHA256: 936d51a40acbd8c29dbc25b9f231a90dffd3564a0de240e305424065562cedf8
+SHA512: 8d57312197fb6cfdc8ce5f9cea9b4d6d6eb6594b7cf865c1e401035ffbad1471cd4e1e52a96bd8934bf0fe1d69c3aa6c1d3ce0f89d06557d4bd59f8bd0d7ec24
+Description: Debug symbols for libhybris-test
+Build-Ids: 070d356ab879533daca5ebd6bb7d447e580a72b8 1eb168d4d794cce149a41a86a54675d4231af83a 31c79d6d45739dc52c232dc5d6d2b0f7c162d7e7 42bf0b16f67ba97082eeae53bdeae24076da6f8d 6165dcb45601a6fe8a65ab7c90534d73095e8c7b 6423592ec50663ea857eef6de5065c8c6386b58a 645c82c0fc70473add813f2221cd33765c7b3310 7222b06875a61407df1deb38012c02c74a007c57 72d077fdcd79c215c2090137f72aed4cf8caf207 923423b5b3c5022277a4139dfac8752a127c8880 a03f840c589110eaa71f672cfaf9deed434fb1c0 a2740524f10f3608a0b806bcc0fb846353f3a2c3 de5ed024fbcb33c0b160f40a352a884cd7d5f3ec dea0417cb235f18dd4bfa5aba3e57574f791c843 e3a0cb5e63c6c23535bb6111ea887c429dc6baaf
+Auto-Built-Package: debug-symbols
+
+Package: libhybris-utils
+Priority: extra
+Section: utils
+Installed-Size: 61
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris (= 0.1.0+git20170522-1), libandroid-properties1, libc6 (>= 2.4)
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+git20170522-1_amd64.deb
+Size: 20682
+MD5sum: dc1a771bbae1f6611aa126657eb5398f
+SHA1: 0caefb57ea04fc4f295c6c8ac6ae255add408385
+SHA256: b98db0da491ed40840bf04062578842a37b9822a6d917778ad962a03e2596291
+SHA512: 343a9120170d39a05e8c26f2f41d122f576d228fe876a60f7f5750041b23b1d2ad2f128c1d5c531a83c904c45b66924112387a413c362e6cdb1e637ba22a2601
+Description: Utilities to help working with the Android HW abstraction layer
+ Contains utilities used to help working with Android HW abstraction layer.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-utils-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 28
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libhybris-utils (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 7344
+MD5sum: f5e0bd52d821e8e7a77deab16df3e210
+SHA1: 319ecc3a7b732c5b30f31a358b5fe1d8fb67ee2e
+SHA256: eed50874fe674c6b7e7e624b2d62320d728e1ea241adec8d3089be9fddd0cb8a
+SHA512: 7abf2e52da470156f9adb3e9f625277bf2b41a6feb67a648ce9c8bf930577f683ac940ae9845f3a919cfbc778b30988ae9364f66aaeccacb658a2f92ad9001cb
+Description: Debug symbols for libhybris-utils
+Build-Ids: 0475e1dea069dff4adc95f8ecc2b8fa69136a837 5ddf17d6feb0b4b2413dab7c1ef6cb5bcaeb49a8
+Auto-Built-Package: debug-symbols
+
+Package: libinput-bin
+Priority: optional
+Section: libs
+Installed-Size: 48
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libc6 (>= 2.4), libudev1 (>= 183), libwacom2 (>= 0.22)
+Filename: pool/main/libi/libinput/libinput-bin_1.5.1-1+16.04+build1_amd64.deb
+Size: 11586
+MD5sum: b60763d5ec7774c8fa4457ae5ec21346
+SHA1: 9da0f8ca8081f03d44f5d0132fe172d98d2b0375
+SHA256: 2e7b15b0facaf75b00be1a494f03ecc369dd7def398d9a9b4801c5872b7b28c1
+SHA512: f69bedf83932beb26ffedc089b51476a27202e2e39c087b42df09d62da56504bc3de0e9cc243dd08791e1f0aca371defe09573749da1b0a226ee26b717fe9947
+Description: input device management and event handling library - udev quirks
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction so minimize the amount of custom input
+ code the user of libinput need to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the udev quirks database and helpers.
+Multi-Arch: foreign
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+
+Package: libinput-bin-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 32
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libinput-bin (= 1.5.1-1+16.04+build1)
+Filename: pool/main/libi/libinput/libinput-bin-dbgsym_1.5.1-1+16.04+build1_amd64.deb
+Size: 10118
+MD5sum: 7d4b0ab7d7c496582e9d92095cb32938
+SHA1: ab0536442398c18c1a9dac0d4966a4fdac0d850e
+SHA256: 56947f2faff4fc9fe3b7a01e0f9ecc541d07de88fa440d3a40ff75a8b6ccfae5
+SHA512: c53d7dca20074e4919a17ccd348fbd2b54bd18366eab93ea8c7384d34b5df3bb8eb469e470f2587876b16a1f3776c40c71bb83e25b2142bbc45974a14c821e29
+Description: Debug symbols for libinput-bin
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Build-Ids: 742fb617a0eaac1883c0c864bfc853ac1de77a3c 969b8bbd8c856a346a62c75f6906980d1c1283d1
+Auto-Built-Package: debug-symbols
+
+Package: libinput-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 192
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libinput10 (= 1.5.1-1+16.04+build1)
+Filename: pool/main/libi/libinput/libinput-dev_1.5.1-1+16.04+build1_amd64.deb
+Size: 30446
+MD5sum: ba2e416263bf0bbd23daf6d3c31296f3
+SHA1: 50bc337736afe32ec04d6ff730aef2e0ba919b23
+SHA256: 31090e0c07e312d86e01a7c559814b66b1518c908acfb261a508a2db1f1434a9
+SHA512: dff3333372748ae35f3b05a3cf2b6d9f3ed05240f545220fad82604691fad27292c8d48b6d86e1db52714849f3ffc0e0901aad43f352a98c3593667eea2954d6
+Description: input device management and event handling library - development files
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction so minimize the amount of custom input
+ code the user of libinput need to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the development headers.
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Multi-Arch: same
+
+Package: libinput-tools
+Priority: extra
+Section: libdevel
+Installed-Size: 87
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libinput10 (= 1.5.1-1+16.04+build1), libc6 (>= 2.8), libevdev2 (>= 0.9.1), libudev1 (>= 183)
+Filename: pool/main/libi/libinput/libinput-tools_1.5.1-1+16.04+build1_amd64.deb
+Size: 22160
+MD5sum: 383298e751d6d5a10af7c63c34eee5f1
+SHA1: cde7c9b77790b9a6c44af82cf898dafe1ebb0541
+SHA256: 645d8ba47d9fcdb4558ca1629a057c40edabfa95dd091a692a7259c6be3c93e8
+SHA512: 328b1a1c32f3c78793dcbc95bfb7e49db2e91869f5afd21e3258a3c155ba4a9a2ff3f5b0b84b63765d8e6b92777ae8f733d6b4b068e93f6b4697f9baf7a34125
+Description: input device management and event handling library - command line tools
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction so minimize the amount of custom input
+ code the user of libinput need to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the command line tools.
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Multi-Arch: allowed
+
+Package: libinput-tools-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 80
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libinput-tools (= 1.5.1-1+16.04+build1)
+Filename: pool/main/libi/libinput/libinput-tools-dbgsym_1.5.1-1+16.04+build1_amd64.deb
+Size: 43612
+MD5sum: e477031bf4ec49e746e37b417f6396bc
+SHA1: b837aaeea494ade777f8aedfad77eee78ddd9627
+SHA256: c28b51f750f6171c0ea25916d28cd0e4eba6b1096f66593501c1befbf776000b
+SHA512: 2dc45153d7011f26995c1e93ee09d5d93eae7154d6eb5c2d5037f170ce2a3efb05d1ff768fd75286c6d6f5de33015b63bfa311ea4c9024b3a06fa94201af4d62
+Description: Debug symbols for libinput-tools
+Build-Ids: 497319c34b80218946759d23d46b5cdbfb6c2e04 cd3bcc7f6c7ac8f134f1092eb01df62014dd311a
+Auto-Built-Package: debug-symbols
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+
+Package: libinput10
+Priority: optional
+Section: libs
+Installed-Size: 215
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libc6 (>= 2.9), libevdev2 (>= 0.9.1), libmtdev1 (>= 1.1.0), libudev1 (>= 183), libwacom2 (>= 0.15), libinput-bin (>= 1.5.1-1+16.04+build1)
+Filename: pool/main/libi/libinput/libinput10_1.5.1-1+16.04+build1_amd64.deb
+Size: 72450
+MD5sum: 860299958a85697d5fca8967bcfbd790
+SHA1: 0e95cd4687848d6cf5146f20917291b581d963fe
+SHA256: c0c31a9fa60144c56fe255477ac226f09e5c7e3f23753c94970fbba7bd0f6306
+SHA512: 438964609a55e9db6b750c487d3251837d6278343d735bb7737f87bc526939ce064775a9531ce56723e53f19e7a2a40db3a5b53b67943c1d54f79721a3bed776
+Description: input device management and event handling library - shared library
+ libinput is a library that handles input devices for display servers and
+ other applications that need to directly deal with input devices.
+ .
+ It provides device detection, device handling, input device event
+ processing and abstraction so minimize the amount of custom input
+ code the user of libinput need to provide the common set of
+ functionality that users expect.
+ .
+ This package includes the shared library.
+Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+
+Package: libinput10-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 303
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libinput10 (= 1.5.1-1+16.04+build1)
+Filename: pool/main/libi/libinput/libinput10-dbgsym_1.5.1-1+16.04+build1_amd64.deb
+Size: 256412
+MD5sum: e40966fde6c9f9fe0804dd65ba950bfd
+SHA1: dc0a2ece5d54f0dac2b27d95b704a4e1e3683ac2
+SHA256: a9a4edfd83e8059c79bd7debb1936ee38670d7f631899555a7894e7eeb7658aa
+SHA512: e3af4030e8f49d419414afc3651e0f24aef0c24be429fedf6c704ccba9fd76a289a0383d4ef0509c62fa6197d80946f6452f46903e50feb709eadcb23f66220f
+Description: Debug symbols for libinput10
+Auto-Built-Package: debug-symbols
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Build-Ids: 84e6e0c405e128787aa8144997466b965494ff72
+Multi-Arch: same
+
+Package: libmedia-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 85
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Depends: libmedia1 (= 0.1.0+git20170522-1), android-headers (>= 4.4.2)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+git20170522-1_amd64.deb
+Size: 21198
+MD5sum: 4efee77f08e4e613a1cfbaee2380f6bf
+SHA1: 296dac635c82c23cda00da7f799afdda465319a9
+SHA256: 0420a06ff3aa0c1f9a54842f3e96f27e1fb6ff3d896a21f8f0cf0bc59ddf4f5c
+SHA512: 8bb0e204a689d5c36a8ef93a16c8be21d86ee715621efe45349a6dc17e384c3d108fbf30ecd2b58a759184e575e5b194a64e168184a2b58aa8d0028393ef9297
+Description: Development files for libmedia
+ Contains the development files for the Android Media HAL, which
+ abstract the access to the Android libstagefright based decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1
+Priority: extra
+Section: libs
+Installed-Size: 100
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Depends: libc6 (>= 2.2.5), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+git20170522-1_amd64.deb
+Size: 25914
+MD5sum: 802cfc371b25ce695267cfa1f2d5384e
+SHA1: 945e778aa1ec6cbcf18117960ccee18911dfe014
+SHA256: 243c9c096a937d7c0329f3d6e024a7cfe41b56ec0f037592b57255bf41cfbcdf
+SHA512: 099b6532591b1ac2ad9312f403d146219b363b3a0f17e597e418fc7d3504ae1a29f10abea77452b82abe5b21796f786a0a3901f7088f9d0c429a28a88117a569
+Description: Library to provide access to the Android Media HAL
+ Contains a library that provides access to the Android Media HAL,
+ which abstract the access to the Android libstagefright based
+ decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 56
+Maintainer: Halium Developers <admin@halium.org>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+git20170522-1
+Depends: libmedia1 (= 0.1.0+git20170522-1)
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+git20170522-1_amd64.deb
+Size: 28976
+MD5sum: 19f5653bd395ed38a6f51381563cc9ae
+SHA1: 92f392cbdb3c24b3a52ca235c72157f53e8322b9
+SHA256: 1d609aab1feb558e0312ba9d845fea52285b4949b1168eec2064ced3880ba1f6
+SHA512: 57659025775028729b2b4b3b3e6689b128f46b8272f33adfb68d35e38fb1ce9baf5dec0033a2a063848f9f1344f963ed5dc6ff2cfb1f8636e10e3b8ec8f5b50b
+Description: Debug symbols for libmedia1
+Build-Ids: da59bfa97608c32014b790427159448513bd23db
+Auto-Built-Package: debug-symbols
+
+Package: maliit-inputcontext-gtk
+Priority: optional
+Section: libs
+Installed-Size: 180
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jonathan Riddell <jr@jriddell.org>
+Architecture: amd64
+Source: inputcontext-gtk
+Version: 0.0+git20160205.1252+16.04-0
+Depends: libdbus-1-3 (>= 1.9.14), libdbus-glib-1-2 (>= 0.92), libglib2.0-0 (>= 2.41.1), libgtk-3-0 (>= 3.0.0), libgtk2.0-0 (>= 2.24.0), libpango-1.0-0 (>= 1.14.0), libqt5core5a (>= 5.7.0)
+Filename: pool/main/i/inputcontext-gtk/maliit-inputcontext-gtk_0.0+git20160205.1252+16.04-0_amd64.deb
+Size: 35558
+MD5sum: f800fcd6e864c74087882865619e126d
+SHA1: 2ab3941806757495eb689ecedbf5c59e86f92d2f
+SHA256: 1cd1b3e4c968575ed8814a29eee79f6b4bde814274d38d0c9aba4cb7892de313
+SHA512: df2b8a4d8fb129d4e86cd174b6e2d39329343896b9e96659545e0f1df70836a6033475fa4d8be2ceaeb468cde029a5fdde4ad0eeced25d37dd3d0dcc5b4e9234
+Description: The GTK+ input context for Maliit
+ This plugin allow GTK to use Maliit.
+Homepage: https://github.com/maliit/inputcontext-gtk
+
+Package: plasma-mobile
+Priority: optional
+Section: kde
+Installed-Size: 918
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Version: 1:4.10+p16.04+git20170117.1347-0
+Depends: plasma-framework, plasma-phone-components, qml-module-org-kde-kquickcontrolsaddons, qml-module-qtquick2, libc6 (>= 2.14), libkf5declarative5, libkf5i18n5, libkf5kiocore5, libkf5service5, libkf5windowsystem5, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5quick5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1)
+Filename: pool/main/p/plasma-mobile/plasma-mobile_4.10+p16.04+git20170117.1347-0_amd64.deb
+Size: 280358
+MD5sum: baf47596cc8cf6a5f56c3abec9834ff1
+SHA1: 255a653c0bdababe1fd367d4d3b0e4b1c970990d
+SHA256: 0d02405957979ec90612518dbb47c485428485b01d7c3db78d6928cda844cdb1
+SHA512: a5f4cbfe9158d5abb5ee754262892ef4ca686a339bae472ddb121c46a9eac729caea4635bf80d78b86183031d33bd0c85d25b0b323ee9ee4a903cd74420ac59f
+Description: mobile shell from Plasma
+ A workspace for your phone using KDE's Plasma.
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-mobile
+
+Package: plasma-mobile-dbg
+Priority: extra
+Section: debug
+Installed-Size: 1015
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: plasma-mobile
+Version: 1:4.10+p16.04+git20170117.1347-0
+Depends: plasma-mobile (= 1:4.10+p16.04+git20170117.1347-0)
+Filename: pool/main/p/plasma-mobile/plasma-mobile-dbg_4.10+p16.04+git20170117.1347-0_amd64.deb
+Size: 980296
+MD5sum: 702c0e09ad428e6b07fc8c5ee13a3b29
+SHA1: 6cb1c0e6f187ff8d9fb75a186533f52e0f686cdb
+SHA256: e8de00c435be8be88969751be09e76ff54ed9927c87e986a29dbdbf8dac9be7b
+SHA512: 9595a9000869611a8feb64ac39e588a523dd2370c0e369cda8815cb939151f0c7569d313284c98ac2fbc3110c9c6f89aea8d011d8ba9b989f59784eb6a953100
+Description: mobile shell from Plasma - debugging symbols
+ A workspace for your phone using KDE's Plasma.
+ .
+ This package contains the debugging symbols.
+Build-Ids: 186f6e01ec4ee15b1d06dbd231cb65d979440dc6 5ef80404380db7529e357d65f629101d6dbd8157 74723f4349f8b60dd8b628be1ef5ce18eb2060e3
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-mobile
+
+Package: plasma-phone-components
+Priority: optional
+Section: kde
+Installed-Size: 3746
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Version: 0.7+kubuntu1-0ubuntu1
+Depends: breeze-icon-theme, milou, phonon4qt5, plasma-workspace, powerdevil, qml-module-org-kde-kio, qml-module-org-kde-kquickcontrols, qml-module-qtquick-localstorage, ttf-oxygen-font-family, kpeople-vcard, libc6 (>= 2.14), libkf5configcore5, libkf5coreaddons5, libkf5dbusaddons5, libkf5declarative5, libkf5i18n5, libkf5kiowidgets5, libkf5notifications5, libkf5package5, libkf5people5, libkf5peoplebackend5, libkf5plasma5, libkf5service5, libkf5waylandclient5, libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.0.2), libqt5widgets5 (>= 5.0.2), libstdc++6 (>= 4.1.1), libtelepathy-qt5-0
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components_0.7+kubuntu1-0ubuntu1_amd64.deb
+Size: 1739560
+MD5sum: e718956bcbddd73b5c2208f08b7052c7
+SHA1: f703fa6faa011c9718ab73adcd162841854ccbec
+SHA256: 12e4cd5d5b77281bdede9566e5c43618978b1c0359b23f8124520d6f43cb500d
+SHA512: c9252bc117313be90012fea8ed8d75c2fb6ccdcfc35e9c3696727ff20c4512c408ead7c645dceef7b7f894bed37be49211e870f8c4f443ba0155c3bf064af2e3
+Description: Plasma home screen for phones
+ Using the multi-platform toolkit Qt,
+ the flexible extensions of KDE Frameworks plus the power of Plasma Shell,
+ Plasma Mobile is built with technology
+ which feels equally at home on the desktop and mobile devices
+ .
+ Being based on the most flexible desktop in the world
+ means you can truly make your phone your own
+ .
+ Add and modify widgets, change colour schemes, fonts, and much, much more
+Homepage: http://plasma-mobile.org
+
+Package: plasma-phone-components-dbg
+Priority: extra
+Section: debug
+Installed-Size: 2106
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Architecture: amd64
+Source: plasma-phone-components
+Version: 0.7+kubuntu1-0ubuntu1
+Depends: plasma-phone-components (= 0.7+kubuntu1-0ubuntu1)
+Filename: pool/main/p/plasma-phone-components/plasma-phone-components-dbg_0.7+kubuntu1-0ubuntu1_amd64.deb
+Size: 2059404
+MD5sum: c541b0537b4dddc675bf3a4b722fdc7f
+SHA1: e379af84b3a15680bf9a6033c22e35cf192bfe30
+SHA256: 3bdcb4bb48272f6df3a2bf49c2e78817bb51336fdd3e73b4d921f95b3181b3dc
+SHA512: f38e2b0117409d08cfdae1ed27c49541fa4ecc34d1584256ed22aa6de935ca8b16d18df55525f7aa0debda2a8e7d87ab3e0c834a84477985ef0576ba6748594f
+Description: Plasma home screen for phones
+ Using the multi-platform toolkit Qt,
+ the flexible extensions of KDE Frameworks plus the power of Plasma Shell,
+ Plasma Mobile is built with technology
+ which feels equally at home on the desktop and mobile devices
+ .
+ Being based on the most flexible desktop in the world
+ means you can truly make your phone your own
+ .
+ Add and modify widgets, change colour schemes, fonts, and much, much more
+Build-Ids: 19cec2c1aa5bc528f5cdbaf4650c66611b8fb58c 1a3795849c514139ef41f09faa10dc29dd8103fd 4c1373fda68a1e814d89850483fe340c9b023488 d6e684d7d9d51973bb83e740ddb578ca32ba4b70
+Homepage: http://plasma-mobile.org
+
+Package: plasma-settings
+Priority: optional
+Section: kde
+Installed-Size: 593
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+Architecture: amd64
+Version: 0.0.1ubuntu5+p16.04+git20170117.1404-0
+Depends: kaccounts-integration, kaccounts-providers, plasma-framework, plasma-mobile, qml-module-org-kde-kaccounts, qml-module-ubuntu-onlineaccounts, libc6 (>= 2.14), libkf5auth5, libkf5configcore5, libkf5coreaddons5, libkf5dbusaddons5, libkf5declarative5, libkf5i18n5, libkf5kdelibs4support5, libkf5package5, libkf5plasma5, libkf5quickaddons5, libkf5service5, libkf5windowsystem5, libqt5core5a (>= 5.7.0), libqt5dbus5 (>= 5.0.2), libqt5gui5 (>= 5.7.0), libqt5qml5 (>= 5.1.0), libqt5quick5 (>= 5.1.0), libstdc++6 (>= 4.2.1)
+Filename: pool/main/p/plasma-settings/plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0_amd64.deb
+Size: 106014
+MD5sum: 2608b0599691830e76a83f8eb9fad2f7
+SHA1: 9610c1f9faaa1bd93b68d14efd1aa48701a8c557
+SHA256: 033ea67386ffd9b6c55344a9f864a15f0e535e4d722e23219b5f9a8f0a97f827
+SHA512: 3ed20323725682ad2406acefabd1c0c66247c0bd62d8cc80809a579dfd7f6941bb8e02595da6fbd7fc7bcc97084a5eb362dea42219279cc06089697e69bb83f7
+Description: Plasma phone settings application
+ The settings application and a few modules for it.
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+
+Package: plasma-settings-dbg
+Priority: extra
+Section: debug
+Installed-Size: 3691
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+Architecture: amd64
+Source: plasma-settings
+Version: 0.0.1ubuntu5+p16.04+git20170117.1404-0
+Depends: plasma-settings (= 0.0.1ubuntu5+p16.04+git20170117.1404-0)
+Filename: pool/main/p/plasma-settings/plasma-settings-dbg_0.0.1ubuntu5+p16.04+git20170117.1404-0_amd64.deb
+Size: 3606348
+MD5sum: 34a5b78c10e88e321cdf23cdf923f1b8
+SHA1: a070d78753bc6689cbc35a79825632c8b566bb36
+SHA256: aaacbfe0957c0e795751a0f88bb89b096b7e6c0f57438087c0aa2dfd891a027b
+SHA512: 81b04a4bb2a75ab15d267548772adf989c8a6ff990234d6b109de6285a0b2724db46239584e26b935ffd9a70edfb8362ef1338ebdf7fefe139cc3c14d1973b58
+Description: Plasma phone settings application
+ The settings application and a few modules for it.
+ .
+ This package contains debugging symbols.
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+Build-Ids: 07e72685f539310683f468ac5d89155a55eb25c4 40b59a73d6ec08b8406767f4af71ffbb33473ede 526acf0189b322eb95efdf5aace335a240c852db 746766a7e667e5c9f09f64c31d33d59d3b4c81eb b4604353314b6b22e09b768d314a30c5f8cb9f85 d7ca5c906f79ed950571aa743f767428ad9d579e d8a3501ba4fcb8613463de6332676ee578cba94b df32af13722dc1fcb2914cea9e9303a073b9230c
+

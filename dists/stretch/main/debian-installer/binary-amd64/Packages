@@ -1,0 +1,19 @@
+Package: libinput10-udeb
+Priority: optional
+Section: debian-installer
+Installed-Size: 238
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Architecture: amd64
+Source: libinput
+Version: 1.5.1-1+16.04+build1
+Depends: libc6-udeb (>= 2.24), libevdev2-udeb, libmtdev1-udeb, libudev1-udeb, libwacom2-udeb (>= 0.24)
+Filename: pool/main/libi/libinput/libinput10-udeb_1.5.1-1+16.04+build1_amd64.udeb
+Size: 72268
+MD5sum: 679931e2572ae5d94489c559938327f6
+SHA1: 6ea8f166e6457373766be8135044c402fd5f8f81
+SHA256: 1799c92de27bf2ceb8529b7bd8a4dee8b25fcf238b9211ad50ed180623182771
+SHA512: 13d0898394e7073814c4110859419d8fe005031f9094d32430e503b5ac2078c010dd55a2bc0631a445639f12092fdad167bd9b89d6525f0145bc78cb1bae428c
+Description: input device management and event handling library - shared library
+ This is a udeb, or a microdeb, for the debian-installer.
+

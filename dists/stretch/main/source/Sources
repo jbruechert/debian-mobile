@@ -1,0 +1,252 @@
+Package: android-headers
+Binary: android-headers
+Version: 5.1+p16.04+git20170529.0915-0
+Maintainer: Mobile CI <kubuntu-ci@lists.launchpad.net>
+Build-Depends: debhelper (>= 9)
+Architecture: all
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/a/android-headers
+Files:
+ 3348c5503fc9fa33755c9e7fb07b0ebc 1968 android-headers_5.1+p16.04+git20170529.0915-0.debian.tar.xz
+ e650cf921d45d4333ee33c8c9c158d86 1182 android-headers_5.1+p16.04+git20170529.0915-0.dsc
+ 238543ed3d234d469b7549ea301e1f62 323524 android-headers_5.1+p16.04+git20170529.0915.orig.tar.xz
+Checksums-Sha512:
+ 8954f05b8223150247b0630091948b2408efae1bdc2c72046f5165334ce79b55f51b3f11a708487b054d8c26b88f07649e48b7fa6a82b09fe3962cf88d07fc5c 1182 android-headers_5.1+p16.04+git20170529.0915-0.dsc
+Package-List:
+ android-headers deb libs optional arch=all
+Homepage: https://github.com/Halium/android-headers
+Vcs-Browser: https://github.com/halium-packaging/android-headers
+Vcs-Git: https://github.com/halium-packaging/android-headers
+Checksums-Sha256:
+ cdad3367463156b4d6ea17fb5539b69677285a10a25b53b69a815ff06f74c996 1968 android-headers_5.1+p16.04+git20170529.0915-0.debian.tar.xz
+ b1a37cc96d2d11cecd676e8544fc340cf0677790ba557ad6822696f1dff0306f 1182 android-headers_5.1+p16.04+git20170529.0915-0.dsc
+ 83ae264db5ae64039b6c533af22110478e5f3b89f33600e31f1d0ff73b6c414b 323524 android-headers_5.1+p16.04+git20170529.0915.orig.tar.xz
+Checksums-Sha1:
+ 98f764570134b4177eb77f0e063d764a75ab412f 1968 android-headers_5.1+p16.04+git20170529.0915-0.debian.tar.xz
+ 8f360e1b7a11f5702df092ec8429e23b022c0203 1182 android-headers_5.1+p16.04+git20170529.0915-0.dsc
+ cf2dab7003e778d3928fc761f3fafa9bb1e37cb8 323524 android-headers_5.1+p16.04+git20170529.0915.orig.tar.xz
+
+Package: inputcontext-gtk
+Binary: maliit-inputcontext-gtk
+Version: 0.0+git20160205.1252+16.04-0
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Jonathan Riddell <jr@jriddell.org>
+Build-Depends: debhelper (>= 9), libdbus-glib-1-dev, libglib2.0-dev, libgtk2.0-dev, libgtk-3-dev, qt5-default, qt5-qmake
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/i/inputcontext-gtk
+Files:
+ b20c7baa69023d37022d8263cff28e45 1572 inputcontext-gtk_0.0+git20160205.1252+16.04-0.debian.tar.xz
+ 582509d40544edfaabc51a17061a2625 1374 inputcontext-gtk_0.0+git20160205.1252+16.04-0.dsc
+ 813bad20da3fc848a9419bacc423d0b3 53116 inputcontext-gtk_0.0+git20160205.1252+16.04.orig.tar.xz
+Vcs-Browser: https://github.com/plasma-phone-packaging/inputcontext-gtk
+Checksums-Sha256:
+ 400136f39420886151f143452c096d00e92f34788283cbf0f2a1ce769944f7e3 1572 inputcontext-gtk_0.0+git20160205.1252+16.04-0.debian.tar.xz
+ 6e711e80ae7481291cc10231543976b4ca23831060c7d88f039dd896531cf50e 1374 inputcontext-gtk_0.0+git20160205.1252+16.04-0.dsc
+ 0e55a0896104d10b773dee09d41ef582e6460824de5b2899736c3719f6663913 53116 inputcontext-gtk_0.0+git20160205.1252+16.04.orig.tar.xz
+Vcs-Git: https://github.com/plasma-phone-packaging/inputcontext-gtk.git
+Checksums-Sha1:
+ fada5a2111a5157dee7ff6434536ad95a2d7ba9b 1572 inputcontext-gtk_0.0+git20160205.1252+16.04-0.debian.tar.xz
+ 7b18a434c09088a0c21237ef4662404a7db150d8 1374 inputcontext-gtk_0.0+git20160205.1252+16.04-0.dsc
+ d6f7af24b9a9c9c2bb3559c012352f374a2566e9 53116 inputcontext-gtk_0.0+git20160205.1252+16.04.orig.tar.xz
+Checksums-Sha512:
+ 15d8fcd12bd17b4e0d7572be32c85fd9c618391e3ac06b9eba7d89b4653bd0cb482d4de8019ba19715aacd0b1365dab39ff45e5c9491467ea6c89892bb554502 1374 inputcontext-gtk_0.0+git20160205.1252+16.04-0.dsc
+Package-List:
+ maliit-inputcontext-gtk deb libs optional arch=any
+Homepage: https://github.com/maliit/inputcontext-gtk
+
+Package: kpeoplevcard
+Binary: kpeople-vcard
+Version: 0.0+p16.04+git20170117.1347-0
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake, debhelper (>= 9), extra-cmake-modules (>= 1.3.0~), libkf5contacts-dev, libkf5coreaddons-dev, libkf5people-dev (>= 5.12.0+git20150715), pkg-config, pkg-kde-tools (>= 0.15.15ubuntu1~), qtbase5-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/k/kpeoplevcard
+Files:
+ e21e4059f36ae1668e640a114f54f480 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ 1d79fb4db72d779112a8678a84c58525 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ 48eaab52f59ec8af85a2f8c25344de22 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha512:
+ e5c63e8e61dfa26a4b45a78f346d11eff688e218a2b95d9289f29a561f5bb8a71116766820c8ea736f4b5cc110ca8d3e0b0b4c494f6f7acc5e39ae6fd5f86122 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+Package-List:
+ kpeople-vcard deb kde optional arch=any
+Checksums-Sha1:
+ 4482ee355b52bdf5c9dc23b9f10fc1fc452e2d5e 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ 493ebb3b26f318a37eeb33f866b5837d535c89d9 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ fc0e99f8e8658615f2a99863f1e256a03eefa324 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha256:
+ 5ae9d9c4fb2890125de38d773c3c5f086cdcdf4f290b6a27103973b0347e40e8 1680 kpeoplevcard_0.0+p16.04+git20170117.1347-0.debian.tar.xz
+ c5e74ecb53dcdf8ebf952c83214abf65177a543963c05a8ff6ad6efb55c358d4 1260 kpeoplevcard_0.0+p16.04+git20170117.1347-0.dsc
+ d8b33491b5c1480d1951813b6f38623e74cd165e4bc64d718207c5f47d6ca7e5 3944 kpeoplevcard_0.0+p16.04+git20170117.1347.orig.tar.xz
+
+Package: libhybris
+Binary: libandroid-properties1, libandroid-properties-dev, libmedia1, libmedia-dev, libhardware2, libhardware-dev, libhybris-common1, libhybris-common-dev, libhybris, libhybris-dev, libhybris-utils, libhybris-test
+Version: 0.1.0+git20170522-1
+Maintainer: Halium Developers <admin@halium.org>
+Build-Depends: debhelper (>= 9.0.0), autotools-dev, dh-autoreconf, android-headers (>= 4.4.2), quilt, pkg-config, libgles2-mesa-dev, libwayland-dev
+Architecture: armhf arm64 i386 amd64
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/libh/libhybris
+Files:
+ c4e88d02e0daf51972e292a46b7de05f 17720 libhybris_0.1.0+git20170522-1.debian.tar.xz
+ 2cd7e8253a5631f23c0f9142e3774bfa 2041 libhybris_0.1.0+git20170522-1.dsc
+ 9bf3baf6f488cf0f08056160d4635b08 593343 libhybris_0.1.0+git20170522.orig.tar.gz
+Vcs-Browser: https://github.com/JBBgameich/libhybris-packaging
+Vcs-Git: https://github.com/JBBgameich/libhybris-packaging.git
+Package-List:
+ libandroid-properties-dev deb libdevel extra arch=armhf,arm64,i386,amd64
+ libandroid-properties1 deb libs extra arch=armhf,arm64,i386,amd64
+ libhardware-dev deb libdevel extra arch=armhf,arm64,i386,amd64
+ libhardware2 deb libs extra arch=armhf,arm64,i386,amd64
+ libhybris deb libs extra arch=armhf,arm64,i386,amd64
+ libhybris-common-dev deb libdevel extra arch=armhf,arm64,i386,amd64
+ libhybris-common1 deb libs extra arch=armhf,arm64,i386,amd64
+ libhybris-dev deb libdevel extra arch=armhf,arm64,i386,amd64
+ libhybris-test deb devel extra arch=armhf,arm64,i386,amd64
+ libhybris-utils deb utils extra arch=armhf,arm64,i386,amd64
+ libmedia-dev deb libdevel extra arch=armhf,arm64,i386,amd64
+ libmedia1 deb libs extra arch=armhf,arm64,i386,amd64
+Checksums-Sha512:
+ 1e75a5a9333652b535bbfcff2af3478181e4bd6a62ee6d4b0d5c528bbd7b2dedfcfb0ed00cd04cb0e62c66dbae8a016daa2bb4ec74ff966bfa35ffb6427d2d0a 2041 libhybris_0.1.0+git20170522-1.dsc
+Checksums-Sha256:
+ 0c3e0acebeb51a44a6c556abbb57e2ab4d76c8d44a50e2b46d4ff04185afcb34 17720 libhybris_0.1.0+git20170522-1.debian.tar.xz
+ 33863f655aab643aad76bf1fb8e26f740374f9b5ebd3b8c5b053a18c533b4f9e 2041 libhybris_0.1.0+git20170522-1.dsc
+ 153b50fb167dd56aa40635b7da746fffc86e4f0b81a451503911cf78c2eb5d69 593343 libhybris_0.1.0+git20170522.orig.tar.gz
+Checksums-Sha1:
+ 20911bc6c6722c06cd5b013027c1fa87a9ab8874 17720 libhybris_0.1.0+git20170522-1.debian.tar.xz
+ daefd2394579368a23bbfd8063d33cf85079af93 2041 libhybris_0.1.0+git20170522-1.dsc
+ 07c03e43482d5b48b617753d8695c997ed42369c 593343 libhybris_0.1.0+git20170522.orig.tar.gz
+
+Package: libinput
+Binary: libinput10, libinput-bin, libinput10-udeb, libinput-dev, libinput-tools
+Version: 1.5.1-1+16.04+build1
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Build-Depends: debhelper (>= 9), dh-autoreconf, pkg-config, libmtdev-dev (>= 1.1.0), libudev-dev, libevdev-dev (>= 0.4), libwacom-dev (>= 0.12)
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/libi/libinput
+Files:
+ 74a176d181f82b93779d6a0fe4ba7799 18096 libinput_1.5.1-1+16.04+build1.debian.tar.xz
+ 9700d3f7a8f0d282e752a651f087e222 1584 libinput_1.5.1-1+16.04+build1.dsc
+ 2dd37d9ef89053f046248b05d38e01af 648048 libinput_1.5.1.orig.tar.xz
+Package-List:
+ libinput-bin deb libs optional arch=any
+ libinput-dev deb libdevel extra arch=any
+ libinput-tools deb libdevel extra arch=any
+ libinput10 deb libs optional arch=any
+ libinput10-udeb udeb debian-installer optional arch=any
+Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/lib/libinput.git
+Checksums-Sha1:
+ a2655834d96acda813829cfdfbb53acad887bb04 18096 libinput_1.5.1-1+16.04+build1.debian.tar.xz
+ cb4a1944341b7054a72b6b7c1524fb936c63c563 1584 libinput_1.5.1-1+16.04+build1.dsc
+ eb591199777d7e8a46513c11610d8cea7b53a629 648048 libinput_1.5.1.orig.tar.xz
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Héctor Orón Martínez <zumbi@debian.org>
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/lib/libinput.git
+Checksums-Sha256:
+ 410f9f78079b884b97a3b94c992fde1edf8c5da4b5862852ce84a0f9a2a68b9a 18096 libinput_1.5.1-1+16.04+build1.debian.tar.xz
+ 6facfbc126d466abbec8c325cccd6d0437e7525cd56fab683c7fc7a6e1795375 1584 libinput_1.5.1-1+16.04+build1.dsc
+ b3a1c51f7d674bdfd47b9f61c1540135b332868261fae1c48e02157c359454d2 648048 libinput_1.5.1.orig.tar.xz
+Checksums-Sha512:
+ 4746e5161f0be126b9692bef3ec9882781e99021ba6b187410b0953b261a6953cd8ac6b91821e88ddcdf96cd00d5be04afebd52f461128a64062df012c837709 1584 libinput_1.5.1-1+16.04+build1.dsc
+
+Package: plasma-mobile
+Binary: plasma-mobile, plasma-mobile-dbg
+Version: 1:4.10+p16.04+git20170117.1347-0
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: baloo-kf5-dev, cmake, debhelper (>= 9.0.0~), extra-cmake-modules, kwayland-dev, libkf5activities-dev, libkf5archive-dev, libkf5bookmarks-dev, libkf5declarative-dev, libkf5kdelibs4support-dev, libkf5networkmanagerqt-dev, libkf5notifications-dev, libkf5solid-dev, libkf5windowsystem-dev, pkg-kde-tools, plasma-framework-dev, qtbase5-dev, qtdeclarative5-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/p/plasma-mobile
+Files:
+ a921dded3a0ee5c2da36c7da7b2b2b8b 1912 plasma-mobile_4.10+p16.04+git20170117.1347-0.debian.tar.xz
+ ac95e9031804fc740e1b9aed515b80d0 1711 plasma-mobile_4.10+p16.04+git20170117.1347-0.dsc
+ 05f6d10a05bcbb135d5edb005ed75629 545140 plasma-mobile_4.10+p16.04+git20170117.1347.orig.tar.xz
+Package-List:
+ plasma-mobile deb kde optional arch=any
+ plasma-mobile-dbg deb debug extra arch=any
+Vcs-Browser: https://github.com/plasma-mobile/plasma-mobile-packaging
+Checksums-Sha1:
+ 1a09b4e0f0800954a0508b3dd1b38698bf8fb3cc 1912 plasma-mobile_4.10+p16.04+git20170117.1347-0.debian.tar.xz
+ 740e7471610e00cdaaae1b67ea4fbbc0af159773 1711 plasma-mobile_4.10+p16.04+git20170117.1347-0.dsc
+ 9ceed2dc982024c78ffb481d374496802f349cf9 545140 plasma-mobile_4.10+p16.04+git20170117.1347.orig.tar.xz
+Checksums-Sha512:
+ d2306a537dbe42502cb3506086e14ec1d320c9fb4cc793b4201be9492b0531854f895f3cd75ac41cfa1bf31e19a9d0ce2420f0c5672a18c0a2ef943c4e81f1df 1711 plasma-mobile_4.10+p16.04+git20170117.1347-0.dsc
+Vcs-Git: https://github.com/plasma-mobile/plasma-mobile-packaging.git
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-mobile
+Checksums-Sha256:
+ 12380f2a535e13d300c61db447bc7f8c8daaff3e8bf9df6b3b6c4912bc3ecaf7 1912 plasma-mobile_4.10+p16.04+git20170117.1347-0.debian.tar.xz
+ 74c81ec02022db320da5d0b97339dff20c5a459fe748c8e483b2943951ee4a10 1711 plasma-mobile_4.10+p16.04+git20170117.1347-0.dsc
+ e249c2898ef79429cb401d49460e107891b7a0a4af5524118a45157df112cfd5 545140 plasma-mobile_4.10+p16.04+git20170117.1347.orig.tar.xz
+
+Package: plasma-phone-components
+Binary: plasma-phone-components, plasma-phone-components-dbg
+Version: 0.7+kubuntu1-0ubuntu1
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: cmake, debhelper (>= 9), extra-cmake-modules, kwayland-dev, libkf5declarative-dev, libkf5notifications-dev, libkf5people-dev, libkf5service-dev, libsystemd-dev, libtelepathy-qt5-dev, pkg-config, pkg-kde-tools (>= 0.9), plasma-framework-dev, qtbase5-dev, qtdeclarative5-dev
+Architecture: any
+Standards-Version: 3.9.8
+Format: 3.0 (quilt)
+Directory: pool/main/p/plasma-phone-components
+Files:
+ d8fffe9ed086d1ae0473ea68cf9640d0 2280 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ 946d32a82c6e572af3a5e49ff88e4e30 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ 9a0e0a710847b5184b6098f614754f78 1692740 plasma-phone-components_0.7+kubuntu1.orig.tar.xz
+Homepage: http://plasma-mobile.org
+Checksums-Sha512:
+ b31eed6c46c463915f1fccea0e516ba451ff8c233018795c323ddbd6f86e20340fa17f16c972ae2d3f384e8a5b3135a4dff7ac10cae62e9f7a601f64267b0b38 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+Vcs-Browser: https://github.com/JBBgameich/plasma-phone-components-packaging
+Checksums-Sha1:
+ 53cd9949e5c22750edfbba7adc65a48c31b1b64b 2280 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ f4a5e30c631f365e4ec6b506d1326a94422c23f3 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ 893ab2e4dc1eafba0ed220efd7e7f265d92b0834 1692740 plasma-phone-components_0.7+kubuntu1.orig.tar.xz
+Vcs-Git: https://github.com/JBBgameich/plasma-phone-components-packaging.git
+Package-List:
+ plasma-phone-components deb kde optional arch=any
+ plasma-phone-components-dbg deb debug extra arch=any
+Checksums-Sha256:
+ 87c8b53bb26f76b4b4124ab35a1036d306f7c8db78180b96eb1cffae3d662acb 2280 plasma-phone-components_0.7+kubuntu1-0ubuntu1.debian.tar.xz
+ a00141d282c0aaa1464810bdad432b598d9c6ee9bd5a9ee4b9bce3cf4ce541ca 1553 plasma-phone-components_0.7+kubuntu1-0ubuntu1.dsc
+ 66679516dbd452a5679de8eefe8086d6d6a5eed4074d53218e6683b961d425c6 1692740 plasma-phone-components_0.7+kubuntu1.orig.tar.xz
+
+Package: plasma-settings
+Binary: plasma-settings, plasma-settings-dbg
+Version: 0.0.1ubuntu5+p16.04+git20170117.1404-0
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Original-Maintainer: Boudewijn Rempt <boud@kde.org>
+Build-Depends: cmake (>= 3.0.0), debhelper (>= 0), extra-cmake-modules, libaccounts-glib-dev, libaccounts-qt5-dev, libgettextpo-dev, libkaccounts-dev, libkf5archive-dev, libkf5auth-dev, libkf5bookmarks-dev, libkf5codecs-dev, libkf5completion-dev, libkf5config-dev, libkf5contacts-dev, libkf5coreaddons-dev, libkf5dbusaddons-dev, libkf5declarative-dev, libkf5gapi-dev, libkf5i18n-dev, libkf5iconthemes-dev, libkf5kdelibs4support-dev, libkf5notifications-dev, libkf5plasma5, libkf5plasmaquick5, libkf5service-dev, libkf5solid-dev, libkf5sonnet-dev, libkf5windowsystem-dev, libsignon-qt5-dev, pkg-config, pkg-kde-tools (>= 0.9), plasma-framework-dev, plasma-mobile, qt5-default, qtbase5-private-dev
+Architecture: any
+Standards-Version: 3.9.6
+Format: 3.0 (quilt)
+Directory: pool/main/p/plasma-settings
+Files:
+ f5e1db5c39d870da6fc8aa79a65fd948 2108 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.debian.tar.xz
+ 6493e4470f6e13fe1cbdd6f6e39c84e6 2089 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.dsc
+ df9df4eba512ff57a91ba96824ef5f93 42960 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404.orig.tar.xz
+Checksums-Sha1:
+ d77dc3643e63b620bfc3ea3504f1cbd0ea1856ff 2108 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.debian.tar.xz
+ 2a740e3a55b1ca6e11e7aaa687e230f92bb611eb 2089 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.dsc
+ f9c8a9b3bc958247d4a5b6b15c804cc68fc8c8b2 42960 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404.orig.tar.xz
+Checksums-Sha512:
+ f9d48d305ee41ba37fb039babc51240c1bad2a3cba255fc706e823234ac9c8eabbf3774f2a37840701e9bc5c4df38de8a510c88b69a3e5428c3b48c2f8b5f9fc 2089 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.dsc
+Vcs-Browser: https://github.com/plasma-mobile/plasma-settings-packaging
+Vcs-Git: https://github.com/plasma-mobile/plasma-settings-packaging.git
+Package-List:
+ plasma-settings deb kde optional arch=any
+ plasma-settings-dbg deb debug extra arch=any
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+Checksums-Sha256:
+ 28e878a69e6c1aef1f052228e16ccacd4b1a88bc5e3eaf639d5420d9bdede8db 2108 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.debian.tar.xz
+ 5508c152cf92aded8ac0a0bc1871b99ded69539075bce02d8f7d3452dd2c2f34 2089 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404-0.dsc
+ 37e20538acfc50da872c1c0054063e7a6427f6a73cd65f0e6a22673463d5aeae 42960 plasma-settings_0.0.1ubuntu5+p16.04+git20170117.1404.orig.tar.xz
+
