@@ -1,3 +1,25 @@
+Package: accounts-qml-module-doc
+Priority: optional
+Section: doc
+Installed-Size: 210
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: all
+Source: accounts-qml-module
+Version: 0.6+17.04.20170405-0ubuntu1
+Filename: pool/main/a/accounts-qml-module/accounts-qml-module-doc_0.6+17.04.20170405-0ubuntu1_all.deb
+Size: 15554
+MD5sum: abf112edac25a41fd041634dcd238c67
+SHA1: 1f01c9d9497dcccbf4a7ee4a80389e43860bf3a4
+SHA256: 21b54b7000df41ae4ccdaf0756f1150e35d1fca63b44da4031a4082e43e63322
+SHA512: b2cf3017fea898cf2ddb86698fb9593838d0d31d0722801ada255fc6107f005638aa46adff98b59b712d80f82081a0102fe81b8f92b7ac12df2258e4dfbab744
+Description: Online Accounts QML - documentation
+ This module provides access to the Online Accounts framework from QML
+ applications.
+ .
+ This package contains developer documentation.
+Homepage: https://launchpad.net/accounts-qml-module
+Multi-Arch: foreign
+
 Package: android-headers
 Priority: optional
 Section: libs
@@ -84,8 +106,8 @@ SHA1: 753ab1685603e5040137a65f8cfef6bdfb3733f9
 SHA256: cb240f1e571bbdbb52e2bd192e07ca214a48f43d63b2a2ea0d58b3c73cd2c67c
 SHA512: ce346c37ed8be4d4c83c628952a86b51812aac224f8db04e000d0f8b222d0dad9a5ead4b693b26d70fcaec1565217100c0d6b494523b831331045492aa2f9745
 Description: Debug symbols for kpeople-vcard
-Auto-Built-Package: debug-symbols
 Build-Ids: 60e62ac397ed85722d538d303495d284f3887655
+Auto-Built-Package: debug-symbols
 
 Package: libandroid-properties-dev
 Priority: extra
@@ -200,8 +222,8 @@ SHA1: fb68cd5e365563034946b9699b951b9c263ad2d7
 SHA256: dee8d5b67c4b1a20b3fea653a9cc4da2436c4ebff293bedaa2da94d667f6014b
 SHA512: d59b7f14767039e017540dc42dab5ef70f53b8eab7eeebaacbd87db1f2e9d4a336bad2fd65b85781ea578426fa773897e3074327b0109af355bb57329e7d0c59
 Description: Debug symbols for libandroid-properties1
-Auto-Built-Package: debug-symbols
 Build-Ids: 7c45218d2c4d5495a786ead82a53240cc8e4425e
+Auto-Built-Package: debug-symbols
 
 Package: libhardware-dev
 Priority: extra
@@ -338,8 +360,8 @@ SHA1: e3297f6eba115214568b73fce9504b2c581e587b
 SHA256: 89ad631c1496ece8c5336619cd863bb71f15b6f48c8aa440798c7524dde3773a
 SHA512: 992d112af207015523c1b77ce6122018e7acf1922a88b1f6077e7a189cbaf67611a8342d837347404ca2d59324274c3d9c9c050b7491e37008dfbec4e832e84e
 Description: Debug symbols for libhardware2
-Auto-Built-Package: debug-symbols
 Build-Ids: 6eac812a11cf5dcae587b309e54fe2c3f6a118fc
+Auto-Built-Package: debug-symbols
 
 Package: libhybris
 Priority: extra
@@ -510,8 +532,8 @@ SHA1: 58d9d5fb7d22f5f17b7bc6ee0385441b62b2f17c
 SHA256: 9d6707bd47f38b803c78d9e8875d51d32e92a025b87965582abe7eeeb534abd0
 SHA512: 3c6819c6423f5d413304d78ec72ee442a44f08f7f9b09671321571fa6a2022617eb817208a55f940b9a6f2945717f7bc55d28bd65b7fcdb40be9721a03a15b5f
 Description: Debug symbols for libhybris-common1
-Build-Ids: 2e0a3647b3a4ba665930f6b39398af20f46e8295 e62bbca95584d383e3aacc470259edda9bd7efd5
 Auto-Built-Package: debug-symbols
+Build-Ids: 2e0a3647b3a4ba665930f6b39398af20f46e8295 e62bbca95584d383e3aacc470259edda9bd7efd5
 
 Package: libhybris-dbgsym
 Priority: extra
@@ -529,8 +551,8 @@ SHA1: 932803eaf0920db36c796a9ed5e75866f48e017b
 SHA256: 4f4ae8a476e549baee7da70b810404285df88b6621586fb875a75ad37f7deece
 SHA512: 9283e5609e0bede21a9ed1dfa57e2b99093d68e9363d0c5fb94b275f110bf4497f838978aa2c9d9bdf54c20abd2cd2fecd4a8d936cdda11ce23efe74ac71f761
 Description: Debug symbols for libhybris
-Build-Ids: 00b25bacc1d3fe84a039b7280e25a8117d7f72a8 052cb2b090012139438dc338d850edd95c6bddcc 079f545f5b6eb44b1b42dbeec0472100d3eb1636 0d1c485a860c4a695cd6e24239cdb3b711feac06 0eaf479ecf2b391377ac3ab5066b096a3ab185fc 14257e13283baced1ccc70e1433d08dbf0401594 2277d3171d422b85ad0d54691a910d6393cd311d 32b70f4759106d9d74d11f4ea3f06d8ae608c848 78905df09d088e585b16be34f410929932ae2536 8b1594e8c9413c12321eff8a7de670c5117c1b9b 92acec22c6c8ccb015a11a2911798fa3bfd2d7ad a3b7fb54e8dfde52dbbaddd5abfd944ce7f180b6 a83be96ed6fbe85dc231cc2dc9eeea8208dbb001 c3e0816447fbfba1ba0793d94ace197222aeec75 cca7facc3e33aa117f8098f1f9278316b575af2a d045f4648a6931dfd2e92e6b279613081a880903 d4abd2d455272d83d5d2eaca280b95896e425d0e fd01781753ea8604a37809a30078227a2baecfc7
 Auto-Built-Package: debug-symbols
+Build-Ids: 00b25bacc1d3fe84a039b7280e25a8117d7f72a8 052cb2b090012139438dc338d850edd95c6bddcc 079f545f5b6eb44b1b42dbeec0472100d3eb1636 0d1c485a860c4a695cd6e24239cdb3b711feac06 0eaf479ecf2b391377ac3ab5066b096a3ab185fc 14257e13283baced1ccc70e1433d08dbf0401594 2277d3171d422b85ad0d54691a910d6393cd311d 32b70f4759106d9d74d11f4ea3f06d8ae608c848 78905df09d088e585b16be34f410929932ae2536 8b1594e8c9413c12321eff8a7de670c5117c1b9b 92acec22c6c8ccb015a11a2911798fa3bfd2d7ad a3b7fb54e8dfde52dbbaddd5abfd944ce7f180b6 a83be96ed6fbe85dc231cc2dc9eeea8208dbb001 c3e0816447fbfba1ba0793d94ace197222aeec75 cca7facc3e33aa117f8098f1f9278316b575af2a d045f4648a6931dfd2e92e6b279613081a880903 d4abd2d455272d83d5d2eaca280b95896e425d0e fd01781753ea8604a37809a30078227a2baecfc7
 
 Package: libhybris-dbgsym
 Priority: extra
@@ -548,8 +570,8 @@ SHA1: 4154a2cc84af6ecf3e2056f198f1b4ac6b0eb91d
 SHA256: f96c5d18d2345a32367dbe799ad4c8ad75331b95f42f14fdaf7a95bccb53b23a
 SHA512: 36d973e61adc1c0e4b35e9d69c36304f1176d3c74baabc3ca55be8acba9d6aab8b320859c883a93a28841fd7d8d90a30083482470279f06ce0ab16c99f73c00b
 Description: Debug symbols for libhybris
-Auto-Built-Package: debug-symbols
 Build-Ids: 00b25bacc1d3fe84a039b7280e25a8117d7f72a8 052cb2b090012139438dc338d850edd95c6bddcc 079f545f5b6eb44b1b42dbeec0472100d3eb1636 0d1c485a860c4a695cd6e24239cdb3b711feac06 0eaf479ecf2b391377ac3ab5066b096a3ab185fc 14257e13283baced1ccc70e1433d08dbf0401594 2277d3171d422b85ad0d54691a910d6393cd311d 32b70f4759106d9d74d11f4ea3f06d8ae608c848 78905df09d088e585b16be34f410929932ae2536 8b1594e8c9413c12321eff8a7de670c5117c1b9b 92acec22c6c8ccb015a11a2911798fa3bfd2d7ad a3b7fb54e8dfde52dbbaddd5abfd944ce7f180b6 a83be96ed6fbe85dc231cc2dc9eeea8208dbb001 c3e0816447fbfba1ba0793d94ace197222aeec75 cca7facc3e33aa117f8098f1f9278316b575af2a d045f4648a6931dfd2e92e6b279613081a880903 d4abd2d455272d83d5d2eaca280b95896e425d0e fd01781753ea8604a37809a30078227a2baecfc7
+Auto-Built-Package: debug-symbols
 
 Package: libhybris-dev
 Priority: extra
@@ -754,8 +776,8 @@ SHA1: 319ecc3a7b732c5b30f31a358b5fe1d8fb67ee2e
 SHA256: eed50874fe674c6b7e7e624b2d62320d728e1ea241adec8d3089be9fddd0cb8a
 SHA512: 7abf2e52da470156f9adb3e9f625277bf2b41a6feb67a648ce9c8bf930577f683ac940ae9845f3a919cfbc778b30988ae9364f66aaeccacb658a2f92ad9001cb
 Description: Debug symbols for libhybris-utils
-Build-Ids: 0475e1dea069dff4adc95f8ecc2b8fa69136a837 5ddf17d6feb0b4b2413dab7c1ef6cb5bcaeb49a8
 Auto-Built-Package: debug-symbols
+Build-Ids: 0475e1dea069dff4adc95f8ecc2b8fa69136a837 5ddf17d6feb0b4b2413dab7c1ef6cb5bcaeb49a8
 
 Package: libinput-bin
 Priority: optional
@@ -783,8 +805,8 @@ Description: input device management and event handling library - udev quirks
  functionality that users expect.
  .
  This package includes the udev quirks database and helpers.
-Multi-Arch: foreign
 Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Multi-Arch: foreign
 
 Package: libinput-bin-dbgsym
 Priority: extra
@@ -803,9 +825,9 @@ SHA1: ab0536442398c18c1a9dac0d4966a4fdac0d850e
 SHA256: 56947f2faff4fc9fe3b7a01e0f9ecc541d07de88fa440d3a40ff75a8b6ccfae5
 SHA512: c53d7dca20074e4919a17ccd348fbd2b54bd18366eab93ea8c7384d34b5df3bb8eb469e470f2587876b16a1f3776c40c71bb83e25b2142bbc45974a14c821e29
 Description: Debug symbols for libinput-bin
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Build-Ids: 742fb617a0eaac1883c0c864bfc853ac1de77a3c 969b8bbd8c856a346a62c75f6906980d1c1283d1
 Auto-Built-Package: debug-symbols
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 
 Package: libinput-dev
 Priority: extra
@@ -862,8 +884,8 @@ Description: input device management and event handling library - command line t
  functionality that users expect.
  .
  This package includes the command line tools.
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Multi-Arch: allowed
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 
 Package: libinput-tools-dbgsym
 Priority: extra
@@ -912,8 +934,8 @@ Description: input device management and event handling library - shared library
  functionality that users expect.
  .
  This package includes the shared library.
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 
 Package: libinput10-dbgsym
 Priority: extra
@@ -932,10 +954,10 @@ SHA1: dc0a2ece5d54f0dac2b27d95b704a4e1e3683ac2
 SHA256: a9a4edfd83e8059c79bd7debb1936ee38670d7f631899555a7894e7eeb7658aa
 SHA512: e3af4030e8f49d419414afc3651e0f24aef0c24be429fedf6c704ccba9fd76a289a0383d4ef0509c62fa6197d80946f6452f46903e50feb709eadcb23f66220f
 Description: Debug symbols for libinput10
-Build-Ids: 84e6e0c405e128787aa8144997466b965494ff72
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Auto-Built-Package: debug-symbols
 Multi-Arch: same
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Build-Ids: 84e6e0c405e128787aa8144997466b965494ff72
 
 Package: libmedia-dev
 Priority: extra
@@ -1150,8 +1172,8 @@ Description: mobile shell from Plasma - debugging symbols
  A workspace for your phone using KDE's Plasma.
  .
  This package contains the debugging symbols.
-Build-Ids: 186f6e01ec4ee15b1d06dbd231cb65d979440dc6 5ef80404380db7529e357d65f629101d6dbd8157 74723f4349f8b60dd8b628be1ef5ce18eb2060e3
 Homepage: https://projects.kde.org/projects/extragear/base/plasma-mobile
+Build-Ids: 186f6e01ec4ee15b1d06dbd231cb65d979440dc6 5ef80404380db7529e357d65f629101d6dbd8157 74723f4349f8b60dd8b628be1ef5ce18eb2060e3
 
 Package: plasma-phone-components
 Priority: optional
@@ -1204,8 +1226,8 @@ Description: Plasma home screen for phones
  means you can truly make your phone your own
  .
  Add and modify widgets, change colour schemes, fonts, and much, much more
-Homepage: http://plasma-mobile.org
 Build-Ids: 19cec2c1aa5bc528f5cdbaf4650c66611b8fb58c 1a3795849c514139ef41f09faa10dc29dd8103fd 4c1373fda68a1e814d89850483fe340c9b023488 d6e684d7d9d51973bb83e740ddb578ca32ba4b70
+Homepage: http://plasma-mobile.org
 
 Package: plasma-settings
 Priority: optional
@@ -1246,6 +1268,71 @@ Description: Plasma phone settings application
  The settings application and a few modules for it.
  .
  This package contains debugging symbols.
-Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
 Build-Ids: 07e72685f539310683f468ac5d89155a55eb25c4 40b59a73d6ec08b8406767f4af71ffbb33473ede 526acf0189b322eb95efdf5aace335a240c852db 746766a7e667e5c9f09f64c31d33d59d3b4c81eb b4604353314b6b22e09b768d314a30c5f8cb9f85 d7ca5c906f79ed950571aa743f767428ad9d579e d8a3501ba4fcb8613463de6332676ee578cba94b df32af13722dc1fcb2914cea9e9303a073b9230c
+Homepage: https://projects.kde.org/projects/extragear/base/plasma-settings
+
+Package: qml-module-ubuntu-onlineaccounts
+Priority: optional
+Section: libs
+Installed-Size: 266
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: amd64
+Source: accounts-qml-module
+Version: 0.6+17.04.20170405-0ubuntu1
+Replaces: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Depends: libaccounts-qt5-1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libgl1-mesa-glx | libgl1, libqt5core5a (>= 5.7.0), libqt5gui5 (>= 5.0.2), libqt5network5 (>= 5.0.2), libqt5qml5 (>= 5.0.2), libqt5xml5 (>= 5.0.2), libsignon-qt5-1 (>= 8.57+20150423), libstdc++6 (>= 5), qml-module-qtquick2
+Breaks: qtdeclarative5-accounts-plugin (<= 0.5+14.10.20141006-0ubuntu1)
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts_0.6+17.04.20170405-0ubuntu1_amd64.deb
+Size: 61348
+MD5sum: 65d85d618c38ab67e1dfecdbf9586cab
+SHA1: 7b900ed766d37e6088a921d260c883c7aebff103
+SHA256: 7308ddb82d053ed55b97706f32bd6a95d6364bea8064d0709e6f548538e6e09d
+SHA512: f96d51d92c92b3ad83fa1b91e225212e2d152e65c598a96437e837817edbb1b42f60a28e1bfccfd7b238ccbb56a7849cd204b1d28f6bff41c564ec9791123206
+Description: Expose the Online Accounts API to QML applications
+ This module provides access to the Online Accounts framework from QML
+ applications.
+Multi-Arch: same
+Homepage: https://launchpad.net/accounts-qml-module
+
+Package: qml-module-ubuntu-onlineaccounts-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 1838
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: amd64
+Source: accounts-qml-module
+Version: 0.6+17.04.20170405-0ubuntu1
+Depends: qml-module-ubuntu-onlineaccounts (= 0.6+17.04.20170405-0ubuntu1)
+Filename: pool/main/a/accounts-qml-module/qml-module-ubuntu-onlineaccounts-dbgsym_0.6+17.04.20170405-0ubuntu1_amd64.deb
+Size: 1812174
+MD5sum: 3064348234ab1b0f340d324abb99eacd
+SHA1: 31d948508245a1908d697573321a7b0c943db3e9
+SHA256: 1eead6267bc7d2cd05709a06de55babc0a8d1dbf966f57883152f995378898bf
+SHA512: 56741c02c7c53558a131614fe936ab3bb86b2218efd56dca3d4a902b5fe4f988719f4fc2f9f94890f491550590dc19027dc63407632a358c6a9e253a1a3904c1
+Description: Debug symbols for qml-module-ubuntu-onlineaccounts
+Multi-Arch: same
+Homepage: https://launchpad.net/accounts-qml-module
+Auto-Built-Package: debug-symbols
+Build-Ids: 17762da1a42fc8a441a5ef5508ad3a7e34840ada
+
+Package: qtdeclarative5-accounts-plugin
+Priority: optional
+Section: oldlibs
+Installed-Size: 10
+Maintainer: Ubuntu Desktop Team <ubuntu-desktop@lists.ubuntu.com>
+Architecture: amd64
+Source: accounts-qml-module
+Version: 0.6+17.04.20170405-0ubuntu1
+Depends: qml-module-ubuntu-onlineaccounts
+Filename: pool/main/a/accounts-qml-module/qtdeclarative5-accounts-plugin_0.6+17.04.20170405-0ubuntu1_amd64.deb
+Size: 3892
+MD5sum: 3d006be9686430bb066b2b91437432c0
+SHA1: 567d7af49a4c2ba367109a27e5ceae77d12f49cb
+SHA256: 108d7042e9885e09fbb21b0687ea8a476a09225a6f9a81093a2ce1a6249be019
+SHA512: a81084f81daa665725a09c951c7981d60dea7d458de3dacc57abbb3803e90f041a3c4d0bf9527799d6426ea7ef58b5193419c2dcc68539e2bbf39ad67e375d74
+Description: transitional dummy package for Online Accounts QML clients
+ This module provides access to the Online Accounts framework from QML
+ applications.
+Multi-Arch: same
+Homepage: https://launchpad.net/accounts-qml-module
 
