@@ -4,6 +4,31 @@ Section: libs
 Installed-Size: 2320
 Maintainer: Mobile CI <kubuntu-ci@lists.launchpad.net>
 Architecture: all
+Version: 1:5.1+p16.04+git20170529.1502-0
+Filename: pool/main/a/android-headers/android-headers_5.1+p16.04+git20170529.1502-0_all.deb
+Size: 317552
+MD5sum: 061a810194dd412430f44ce6b054d9f5
+SHA1: 46a2407f2cb847f6c1e562498247b2a6c5e86a2b
+SHA256: 1e64dc98004dc690d0492c191fdf09a479e76f70b18752689ff62cba6427227e
+SHA512: bcd37df7cf6ae05a534dc7c741859d251c5473c123a4cdedfe88102ed7b25e2d66f6e371b41f09d815675d13add972c2a8b322f67c96c1c41267e60210dedf43
+Description: Android Platform Headers from AOSP releases
+ Android NDK provided by Google contains subset of AOSP platform
+ headers which are deemed "external interface" by Google. However,
+ writing advanced software for Android necessitates access to complete
+ platform. Many aspects of it change, sometimes drastically, between
+ releases, so compiling user source code against platform headers for
+ different releases is required (e.g. for libhybris).
+ .
+ This package provides the platform development headers for core components
+ of AOSP (Android Open Source Project), for the 4.4.2 release
+Homepage: https://github.com/Halium/android-headers
+
+Package: android-headers
+Priority: optional
+Section: libs
+Installed-Size: 2320
+Maintainer: Mobile CI <kubuntu-ci@lists.launchpad.net>
+Architecture: all
 Version: 5.1+p16.04+git20170529.0915-0
 Filename: pool/main/a/android-headers/android-headers_5.1+p16.04+git20170529.0915-0_all.deb
 Size: 317372
@@ -66,6 +91,25 @@ Package: libandroid-properties-dev
 Priority: extra
 Section: libdevel
 Installed-Size: 46
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libandroid-properties1 (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libandroid-properties-dev_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 16582
+MD5sum: 4e8508d2ef61d15d84c7739625a866bf
+SHA1: 1d1267144e88183d2b79b3e5270ce8c77c7b336e
+SHA256: 3d02d214813c98363d7ebd8bb632e85d4b6feca01d928795c18cbee49fa51827
+SHA512: fb9e927b0a61f19756ab5c247a2de71d8f7481c47acaaab8d1b69c0e0e8f2cd3611515cdbc20e5cfb587dcd067b061bd048e90604ea9386628a4dbc669aa54fa
+Description: Development headers files for libandroid-properties
+ Contains the development files for use in applications that wants to get,
+ set or list the Android properties.
+
+Package: libandroid-properties-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 46
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -80,6 +124,26 @@ SHA512: d217ffb5a487e519e22461b526cd4b98f9b88d662c3365466eb0aedb5e4e5f54e1b46e2b
 Description: Development headers files for libandroid-properties
  Contains the development files for use in applications that wants to get,
  set or list the Android properties.
+
+Package: libandroid-properties1
+Priority: extra
+Section: libs
+Installed-Size: 56
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libc6 (>= 2.17)
+Filename: pool/main/libh/libhybris/libandroid-properties1_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 20812
+MD5sum: 6c9b0ddcf952857f59a0c97ff85f816f
+SHA1: 0c7813d22090bc0a5743f6aa9c139321756c3d32
+SHA256: 85af517882bc8c5deebe110210b917d506f073da69c95dea3273e9b7523934c5
+SHA512: 8bfc3c7173ff84761587b37a6c5c0c44298adf6b009a0dc3da66594d76ce3057c42d4f71ae47b63160424bb0b118e94f64bd6af763b6a4aff07a54246a2b4ba2
+Description: Library to provide access to get, set and list Android properties
+ Contains a library that provides access to get, set and list Android
+ properties, which can be used by any Ubuntu app that needs to probe
+ for properties (gps, modem, device specifics).
 
 Package: libandroid-properties1
 Priority: extra
@@ -105,6 +169,25 @@ Package: libandroid-properties1-dbgsym
 Priority: extra
 Section: debug
 Installed-Size: 31
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libandroid-properties1 (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libandroid-properties1-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 15496
+MD5sum: 9f781e759a2a9bc1994b52b44fbbf7e5
+SHA1: e7132838222b154b6f8d7a91eafc7e4a0735930e
+SHA256: 1cda88285c0cd8c44793ee4891a1e992a85ed9b4bda411b8a5b0ad612618a2ff
+SHA512: 814b60abea46e65cb6a4d08d1e653b5e80b88eb47099fededb0a1b1e98a14bbea0074bea13901242c9e098a93dd7e8479f1c9318beec5dca399f68abc78af1ce
+Description: Debug symbols for libandroid-properties1
+Auto-Built-Package: debug-symbols
+Build-Ids: 7c45218d2c4d5495a786ead82a53240cc8e4425e
+
+Package: libandroid-properties1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 31
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -119,6 +202,31 @@ SHA512: d59b7f14767039e017540dc42dab5ef70f53b8eab7eeebaacbd87db1f2e9d4a336bad2fd
 Description: Debug symbols for libandroid-properties1
 Auto-Built-Package: debug-symbols
 Build-Ids: 7c45218d2c4d5495a786ead82a53240cc8e4425e
+
+Package: libhardware-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 41
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libhardware2 (= 0.1.0+p16.04+git20170529.1542-0), android-headers (>= 4.4.2)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhardware-dev_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 16116
+MD5sum: 24a819c55a359188de2679c6d58906ce
+SHA1: 5202ba0c42afe92f6e8d6022c0ebed74e7fac33e
+SHA256: f52a00bc9709b3b02cb332df4419ac6da24a70c43c8022a1d82a8246bfd9707d
+SHA512: d2db8019dd4c357074880ac4db27d0d41727d5ddba140e16f7b1a2931aead13a9cf180d1f40eaa51045f3da830144f2b69bd6d1607de2865995659512ea51ec2
+Description: Development files for libhardware
+ Contains the development files for the Android libhardware HAL, which can
+ be used to access a wide range of other HALs, such as audio, power,
+ gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
 
 Package: libhardware-dev
 Priority: extra
@@ -141,6 +249,31 @@ Description: Development files for libhardware
  Contains the development files for the Android libhardware HAL, which can
  be used to access a wide range of other HALs, such as audio, power,
  gralloc, etc.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhardware2
+Priority: extra
+Section: libs
+Installed-Size: 48
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libc6 (>= 2.2.5), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhardware2_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 17622
+MD5sum: 5a557cb954e13711955dbcf43604b877
+SHA1: 2f7281cb4adfcaebc7df0e2afe66b098cf815bc7
+SHA256: 00b9dee8cea75825774a3af353fa565aee6c553939ada61a0cc9801cd56fefb1
+SHA512: dc3f56c0f70cde55360b02ffe6692c5846a0cf3b751235d1b7ea35fe0a0bebca2f03127faba24bfba25f0a28ef7b45e54beae6106810cd7b745d432ba1248aa0
+Description: Library to provide access to the Android libhardware HAL
+ Contains a library that provides access to the Android libhardware HAL,
+ which can be used to access a wide range of other HALs, such as audio,
+ power, gralloc, etc.
  .
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
@@ -174,6 +307,25 @@ Package: libhardware2-dbgsym
 Priority: extra
 Section: debug
 Installed-Size: 17
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhardware2 (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libhardware2-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 3826
+MD5sum: 5e38ef409f9bca2b99b6c9cc99437e2c
+SHA1: a459be3fb92282cdd57f11c5a52b32fad6a27ab3
+SHA256: e36376a04ba369f9c2fdb62f307e8b5ee5a17c3a0cf4744f4aacae48e3e49521
+SHA512: fb9b382e1d7e51e62a75a2ebefd435b6c1ceaba932bb1d47d312802b6599b787823f58be03a4b977c370e862ec677e41a7578e667e0dff3af5c846dc0c0f11aa
+Description: Debug symbols for libhardware2
+Build-Ids: 6eac812a11cf5dcae587b309e54fe2c3f6a118fc
+Auto-Built-Package: debug-symbols
+
+Package: libhardware2-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 17
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -193,6 +345,24 @@ Package: libhybris
 Priority: extra
 Section: libs
 Installed-Size: 560
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libandroid-properties1 (= 0.1.0+p16.04+git20170529.1542-0), libhardware2, libmedia1, libc6 (>= 2.14), libgcc1 (>= 1:3.0), libhybris-common1, libstdc++6 (>= 5), libwayland-client0 (>= 1.9.91), libwayland-server0 (>= 1.2.0)
+Filename: pool/main/libh/libhybris/libhybris_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 105660
+MD5sum: 7b2004efda6ef2a9e86031ac769db94b
+SHA1: ac4af81c7ad54acbb214040f3c340befbf4efd7d
+SHA256: f43d20b322158016e116f7b80a91b549983c7f6de0a111ec3cd9952fbf3a1a2f
+SHA512: a5e18d97ef96c36c4b78a8741094b72c6466d8909a355f0729d610fc66f514ea76d26a9d139d363b423f3ed1f0a2ca514e5c224b41639c9f0a86c2058e27be8d
+Description: Allows to run bionic-based HW adaptations in glibc systems - libs
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris
+Priority: extra
+Section: libs
+Installed-Size: 560
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Version: 0.1.0+git20170522-1
@@ -204,6 +374,31 @@ SHA1: fbae14f101e9047933557d94570c21a27f35a93e
 SHA256: 959bb2e9092aac47272207acb1f7282bb0c3671798b14f6b156a83fc859d5168
 SHA512: 35f72aa2b387a2b82cd9f6206acfc35eb397991257b2bf57eaee84dae0d013d47da293686a8fa6fc30d1f8c6c8bd5d169646bfde7dbff5041f01bb07b4c9031b
 Description: Allows to run bionic-based HW adaptations in glibc systems - libs
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 39
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libhybris-common1 (= 0.1.0+p16.04+git20170529.1542-0)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhybris-common-dev_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 15860
+MD5sum: 0d7f2551c96810a2babacec3bf4ba867
+SHA1: 63585d97e2390a61c82e6d76d6b3f7a324f5776c
+SHA256: 94276667ac197ceeca3b7c2defeee25814b11a7f31eec3f63a447f758d9da827
+SHA512: 813c6fdc8dc80f1ee02360f05f60dd3f9d20e59b5f78379b2bfdd43686108c2185fbe12ee8c0e61968472b96ea5e75a4b2a77269636ced40bb1171bd375e0965
+Description: Development files for libhybris-common
+ Contains the development files for the common library that contains the
+ Android linker, used to dynamically load and use symbols from Android
+ based libraries.
+ .
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
 
@@ -236,6 +431,30 @@ Package: libhybris-common1
 Priority: extra
 Section: libs
 Installed-Size: 167
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Depends: libandroid-properties1, libc6 (>= 2.22), libstdc++6 (>= 4.1.1)
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu13)
+Filename: pool/main/libh/libhybris/libhybris-common1_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 46554
+MD5sum: 633227feed600f729ee65a988f9339d8
+SHA1: 609230133a4de5b18f2317db27aade358a6bf1c5
+SHA256: 2dde38d7e80d3630879215a145007c9db9a11f9d72b12a949c656c4c5959754b
+SHA512: 6e497dcdbfa8884d01086a31f38afabf7c30d50a1cce036ba6d0355b053396b4d10930463d1974150585b9f6c068f0cd330386749ff5560f4fe66ead4ba011f9
+Description: Common library that contains the Android linker and custom hooks
+ Contains a common library that contains the Android linker, used to
+ dynamically load and use symbols from Android based libraries.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-common1
+Priority: extra
+Section: libs
+Installed-Size: 167
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -260,6 +479,25 @@ Package: libhybris-common1-dbgsym
 Priority: extra
 Section: debug
 Installed-Size: 128
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris-common1 (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libhybris-common1-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 85726
+MD5sum: aaed6fcbd2946a30d9f31f8440cf63b5
+SHA1: 49f6d8ed8879bd4f03b7c449cdbae1bb27ade542
+SHA256: f2473ec4138f55def50c8030fc5d319d83c29c67e91b2ec9e1d0c1f48a4cf1e4
+SHA512: f2de5d916a8d87fb0ff8bd57c63aceac8a6e2db7925fb212aa8eac2fdb730131e15915315cf8138bbd8fa9e917445b8eb65c037b2db104484b833cf1ec0835e3
+Description: Debug symbols for libhybris-common1
+Auto-Built-Package: debug-symbols
+Build-Ids: 2e0a3647b3a4ba665930f6b39398af20f46e8295 e62bbca95584d383e3aacc470259edda9bd7efd5
+
+Package: libhybris-common1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 128
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -273,6 +511,25 @@ SHA256: 9d6707bd47f38b803c78d9e8875d51d32e92a025b87965582abe7eeeb534abd0
 SHA512: 3c6819c6423f5d413304d78ec72ee442a44f08f7f9b09671321571fa6a2022617eb817208a55f940b9a6f2945717f7bc55d28bd65b7fcdb40be9721a03a15b5f
 Description: Debug symbols for libhybris-common1
 Build-Ids: 2e0a3647b3a4ba665930f6b39398af20f46e8295 e62bbca95584d383e3aacc470259edda9bd7efd5
+Auto-Built-Package: debug-symbols
+
+Package: libhybris-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 609
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libhybris-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 392024
+MD5sum: 26b1e26024c9aa9a5f28eb8fd4bf7e1c
+SHA1: 932803eaf0920db36c796a9ed5e75866f48e017b
+SHA256: 4f4ae8a476e549baee7da70b810404285df88b6621586fb875a75ad37f7deece
+SHA512: 9283e5609e0bede21a9ed1dfa57e2b99093d68e9363d0c5fb94b275f110bf4497f838978aa2c9d9bdf54c20abd2cd2fecd4a8d936cdda11ce23efe74ac71f761
+Description: Debug symbols for libhybris
+Build-Ids: 00b25bacc1d3fe84a039b7280e25a8117d7f72a8 052cb2b090012139438dc338d850edd95c6bddcc 079f545f5b6eb44b1b42dbeec0472100d3eb1636 0d1c485a860c4a695cd6e24239cdb3b711feac06 0eaf479ecf2b391377ac3ab5066b096a3ab185fc 14257e13283baced1ccc70e1433d08dbf0401594 2277d3171d422b85ad0d54691a910d6393cd311d 32b70f4759106d9d74d11f4ea3f06d8ae608c848 78905df09d088e585b16be34f410929932ae2536 8b1594e8c9413c12321eff8a7de670c5117c1b9b 92acec22c6c8ccb015a11a2911798fa3bfd2d7ad a3b7fb54e8dfde52dbbaddd5abfd944ce7f180b6 a83be96ed6fbe85dc231cc2dc9eeea8208dbb001 c3e0816447fbfba1ba0793d94ace197222aeec75 cca7facc3e33aa117f8098f1f9278316b575af2a d045f4648a6931dfd2e92e6b279613081a880903 d4abd2d455272d83d5d2eaca280b95896e425d0e fd01781753ea8604a37809a30078227a2baecfc7
 Auto-Built-Package: debug-symbols
 
 Package: libhybris-dbgsym
@@ -298,6 +555,28 @@ Package: libhybris-dev
 Priority: extra
 Section: libdevel
 Installed-Size: 180
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris (= 0.1.0+p16.04+git20170529.1542-0), android-headers (>= 4.4.2), libandroid-properties-dev (= 0.1.0+p16.04+git20170529.1542-0), libhardware-dev (= 0.1.0+p16.04+git20170529.1542-0), libmedia-dev (= 0.1.0+p16.04+git20170529.1542-0), libhybris-common-dev (= 0.1.0+p16.04+git20170529.1542-0), libgles2-mesa-dev
+Filename: pool/main/libh/libhybris/libhybris-dev_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 34550
+MD5sum: a8c0121aa96070ebf7c6ba6da3caf1fa
+SHA1: 1e4022e0977f06daa74c07c4ed7d55ac07350967
+SHA256: 3f246da34a727606cf693cc7646dc351ee18f037d75ec088b4224845c39411ea
+SHA512: 713e545610ecf7b1e49f5ff693878a79dc3bd0ef28eb9e5ceb8a6d1c47cdd7c94be575378ba22e6780f00ede0c9cb78853caa1717a7b88cc72f297ca868535ec
+Description: Development headers and libraries for libhybris
+ Contains the header files for use in developing applications that use
+ the libhybris library.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 180
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -312,6 +591,28 @@ SHA512: 64fe27178b8fcaf820a0242becaca8d1ffd73bc37fcfd773a5505975af5c07c1f2d3f95d
 Description: Development headers and libraries for libhybris
  Contains the header files for use in developing applications that use
  the libhybris library.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libhybris-test
+Priority: extra
+Section: devel
+Installed-Size: 234
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris (= 0.1.0+p16.04+git20170529.1542-0), libc6 (>= 2.4), libegl1-mesa (>= 7.8.1) | libegl1-x11, libgcc1 (>= 1:3.0), libgles2-mesa (>= 7.8.1) | libgles2, libhardware2, libhybris-common1, libmedia1, libstdc++6 (>= 5)
+Filename: pool/main/libh/libhybris/libhybris-test_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 49756
+MD5sum: 9d1c10fab213fe7d05a5be9190bb3131
+SHA1: a2af9a6b74efffa8d1f666e85b531fecce88d529
+SHA256: fc7219bfbc7596c0c3f84adf5d8abca8492f9132141616943a22fa15c2fbe6ca
+SHA512: 186cf73bd91e8e8c52500e6390d14e063c0c1dee1209bf6a789bc28e7c2c5fce6802cf367d532a10daa443d188725cf33b18e359b723deee6aa140042d65d9de
+Description: Allows to run bionic-based HW adaptations in glibc systems - tests
+ Contains the test applications used to validate libhybris (needs Android
+ libraries or container).
  .
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
@@ -342,6 +643,25 @@ Package: libhybris-test-dbgsym
 Priority: extra
 Section: debug
 Installed-Size: 248
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris-test (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libhybris-test-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 124168
+MD5sum: daba14bf5f1a197ead1acef628678077
+SHA1: cd674af98f8505bba3202f86acf2b5d23a298f2e
+SHA256: 0ba72b68f1f049c6ced45c12dbc2c14bbea6a30e59441b26cbb2140e8456419f
+SHA512: e160a102441d0a171fe2b9547ccc99d7293bc58e2bfc314e62dde0e4c5d6b1e0e7e8b085b335fafdd9c131210d4d78e49b1e07a8325aa8d330de8202949a619f
+Description: Debug symbols for libhybris-test
+Build-Ids: 070d356ab879533daca5ebd6bb7d447e580a72b8 1eb168d4d794cce149a41a86a54675d4231af83a 31c79d6d45739dc52c232dc5d6d2b0f7c162d7e7 42bf0b16f67ba97082eeae53bdeae24076da6f8d 6165dcb45601a6fe8a65ab7c90534d73095e8c7b 6423592ec50663ea857eef6de5065c8c6386b58a 645c82c0fc70473add813f2221cd33765c7b3310 7222b06875a61407df1deb38012c02c74a007c57 72d077fdcd79c215c2090137f72aed4cf8caf207 923423b5b3c5022277a4139dfac8752a127c8880 a03f840c589110eaa71f672cfaf9deed434fb1c0 a2740524f10f3608a0b806bcc0fb846353f3a2c3 de5ed024fbcb33c0b160f40a352a884cd7d5f3ec dea0417cb235f18dd4bfa5aba3e57574f791c843 e3a0cb5e63c6c23535bb6111ea887c429dc6baaf
+Auto-Built-Package: debug-symbols
+
+Package: libhybris-test-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 248
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -356,6 +676,27 @@ SHA512: 8d57312197fb6cfdc8ce5f9cea9b4d6d6eb6594b7cf865c1e401035ffbad1471cd4e1e52
 Description: Debug symbols for libhybris-test
 Build-Ids: 070d356ab879533daca5ebd6bb7d447e580a72b8 1eb168d4d794cce149a41a86a54675d4231af83a 31c79d6d45739dc52c232dc5d6d2b0f7c162d7e7 42bf0b16f67ba97082eeae53bdeae24076da6f8d 6165dcb45601a6fe8a65ab7c90534d73095e8c7b 6423592ec50663ea857eef6de5065c8c6386b58a 645c82c0fc70473add813f2221cd33765c7b3310 7222b06875a61407df1deb38012c02c74a007c57 72d077fdcd79c215c2090137f72aed4cf8caf207 923423b5b3c5022277a4139dfac8752a127c8880 a03f840c589110eaa71f672cfaf9deed434fb1c0 a2740524f10f3608a0b806bcc0fb846353f3a2c3 de5ed024fbcb33c0b160f40a352a884cd7d5f3ec dea0417cb235f18dd4bfa5aba3e57574f791c843 e3a0cb5e63c6c23535bb6111ea887c429dc6baaf
 Auto-Built-Package: debug-symbols
+
+Package: libhybris-utils
+Priority: extra
+Section: utils
+Installed-Size: 61
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris (= 0.1.0+p16.04+git20170529.1542-0), libandroid-properties1, libc6 (>= 2.4)
+Filename: pool/main/libh/libhybris/libhybris-utils_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 20702
+MD5sum: dceef962f556c8cb6537d8f54b457642
+SHA1: 5ac8dce8119ea956f3ca2d43d9f9a3d9f539c3ad
+SHA256: 749405d5d958d76e7a8d236758fdc861811dc1096c8a28c69695507fc38e5761
+SHA512: 3e9712d2765d8f79d8bac4d3aaa9495a2fe46297ed47d4fe382dce2844c53628c06b1b87588d1ba8db3526e623cef69d396b0f693f87f3947379e5dfcf687f79
+Description: Utilities to help working with the Android HW abstraction layer
+ Contains utilities used to help working with Android HW abstraction layer.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
 
 Package: libhybris-utils
 Priority: extra
@@ -377,6 +718,25 @@ Description: Utilities to help working with the Android HW abstraction layer
  .
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
+
+Package: libhybris-utils-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 28
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libhybris-utils (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libhybris-utils-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 7364
+MD5sum: 83489a1dfd665da323965b6615dbd9fa
+SHA1: ab967d0b985c4ce50f78133c3fe1f5f4873598ed
+SHA256: b4af677cb7e763d6e29e72fc4c1b95ba2b0cae7e5ac5ca9bf01ec67ce861e01e
+SHA512: ccc2404b002045a9080a5e0c220e30ce4f09af89008d95235d883427fa4f32ba188c499f09069c1315a9ba6639491db02ec9f1166ebe297b04b307796ffa023f
+Description: Debug symbols for libhybris-utils
+Build-Ids: 0475e1dea069dff4adc95f8ecc2b8fa69136a837 5ddf17d6feb0b4b2413dab7c1ef6cb5bcaeb49a8
+Auto-Built-Package: debug-symbols
 
 Package: libhybris-utils-dbgsym
 Priority: extra
@@ -443,9 +803,9 @@ SHA1: ab0536442398c18c1a9dac0d4966a4fdac0d850e
 SHA256: 56947f2faff4fc9fe3b7a01e0f9ecc541d07de88fa440d3a40ff75a8b6ccfae5
 SHA512: c53d7dca20074e4919a17ccd348fbd2b54bd18366eab93ea8c7384d34b5df3bb8eb469e470f2587876b16a1f3776c40c71bb83e25b2142bbc45974a14c821e29
 Description: Debug symbols for libinput-bin
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Build-Ids: 742fb617a0eaac1883c0c864bfc853ac1de77a3c 969b8bbd8c856a346a62c75f6906980d1c1283d1
 Auto-Built-Package: debug-symbols
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 
 Package: libinput-dev
 Priority: extra
@@ -523,8 +883,8 @@ SHA256: c28b51f750f6171c0ea25916d28cd0e4eba6b1096f66593501c1befbf776000b
 SHA512: 2dc45153d7011f26995c1e93ee09d5d93eae7154d6eb5c2d5037f170ce2a3efb05d1ff768fd75286c6d6f5de33015b63bfa311ea4c9024b3a06fa94201af4d62
 Description: Debug symbols for libinput-tools
 Build-Ids: 497319c34b80218946759d23d46b5cdbfb6c2e04 cd3bcc7f6c7ac8f134f1092eb01df62014dd311a
-Auto-Built-Package: debug-symbols
 Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Auto-Built-Package: debug-symbols
 
 Package: libinput10
 Priority: optional
@@ -552,8 +912,8 @@ Description: input device management and event handling library - shared library
  functionality that users expect.
  .
  This package includes the shared library.
-Multi-Arch: same
 Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+Multi-Arch: same
 
 Package: libinput10-dbgsym
 Priority: extra
@@ -572,10 +932,34 @@ SHA1: dc0a2ece5d54f0dac2b27d95b704a4e1e3683ac2
 SHA256: a9a4edfd83e8059c79bd7debb1936ee38670d7f631899555a7894e7eeb7658aa
 SHA512: e3af4030e8f49d419414afc3651e0f24aef0c24be429fedf6c704ccba9fd76a289a0383d4ef0509c62fa6197d80946f6452f46903e50feb709eadcb23f66220f
 Description: Debug symbols for libinput10
-Auto-Built-Package: debug-symbols
-Homepage: http://www.freedesktop.org/wiki/Software/libinput/
 Build-Ids: 84e6e0c405e128787aa8144997466b965494ff72
+Auto-Built-Package: debug-symbols
 Multi-Arch: same
+Homepage: http://www.freedesktop.org/wiki/Software/libinput/
+
+Package: libmedia-dev
+Priority: extra
+Section: libdevel
+Installed-Size: 85
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Depends: libmedia1 (= 0.1.0+p16.04+git20170529.1542-0), android-headers (>= 4.4.2)
+Breaks: libhybris-dev (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Filename: pool/main/libh/libhybris/libmedia-dev_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 21234
+MD5sum: 9c5bb41866e9c42480c897ea4078acbc
+SHA1: 54ffcf977344a5f5abddcbffff2498199de59bbd
+SHA256: 20a78437f8fabb29f8fe6dc5683a72c81e836a6743971c7d986a13d5ee3c31ed
+SHA512: aec89d84a9bfcf78365a60e89006ad9a056678614c1dda83409c17c92bb85f60f2ca2a011130a10be8c01e1ed2a3398e3d02221738b07eab22e421f6a83e7d2c
+Description: Development files for libmedia
+ Contains the development files for the Android Media HAL, which
+ abstract the access to the Android libstagefright based decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
 
 Package: libmedia-dev
 Priority: extra
@@ -597,6 +981,31 @@ SHA512: 8bb0e204a689d5c36a8ef93a16c8be21d86ee715621efe45349a6dc17e384c3d108fbf30
 Description: Development files for libmedia
  Contains the development files for the Android Media HAL, which
  abstract the access to the Android libstagefright based decoders.
+ .
+ Hybris is a solution that allows the use of bionic-based HW adaptations in
+ glibc systems.
+
+Package: libmedia1
+Priority: extra
+Section: libs
+Installed-Size: 100
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Replaces: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Depends: libc6 (>= 2.2.5), libhybris-common1
+Breaks: libhybris (<< 0.1.0+git20130606+c5d897a-0ubuntu24)
+Filename: pool/main/libh/libhybris/libmedia1_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 25938
+MD5sum: 87f0ad03e1e3066d79bb0255a0e9c65c
+SHA1: 120beee06e276119f1fa712f6814ad70f69e1f01
+SHA256: bc8646b0cecc5302fe30221ca7bf561ef00df7efcdbf3e823df43e6e971ce8e5
+SHA512: 9497a522324baf57191c506dd3dcde5e966bff32f93905f10cdb89c7dbece0ead9e2369cda031b1a735ffedab42109c458f53e8260845a69480e3aabcc4f7324
+Description: Library to provide access to the Android Media HAL
+ Contains a library that provides access to the Android Media HAL,
+ which abstract the access to the Android libstagefright based
+ decoders.
  .
  Hybris is a solution that allows the use of bionic-based HW adaptations in
  glibc systems.
@@ -630,6 +1039,25 @@ Package: libmedia1-dbgsym
 Priority: extra
 Section: debug
 Installed-Size: 56
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Architecture: amd64
+Source: libhybris
+Version: 0.1.0+p16.04+git20170529.1542-0
+Depends: libmedia1 (= 0.1.0+p16.04+git20170529.1542-0)
+Filename: pool/main/libh/libhybris/libmedia1-dbgsym_0.1.0+p16.04+git20170529.1542-0_amd64.deb
+Size: 28996
+MD5sum: 56d7d4b468a0c84225542302082acad0
+SHA1: 190b8c3b1219016857607f8a2fad678c78b53092
+SHA256: 9646be706a1f9b6fd73e1aa10abb3cfbb850ab98b9d12bc8f7c42759d578fad5
+SHA512: ff708383e8ead74da9c5845e735d1057cf3ec1824deb98d008dc1c261ba26265e271b2fcf4f64d010a181c14696e56ab91dc8fe985635a05b3d44343f70c590a
+Description: Debug symbols for libmedia1
+Build-Ids: da59bfa97608c32014b790427159448513bd23db
+Auto-Built-Package: debug-symbols
+
+Package: libmedia1-dbgsym
+Priority: extra
+Section: debug
+Installed-Size: 56
 Maintainer: Halium Developers <admin@halium.org>
 Architecture: amd64
 Source: libhybris
@@ -642,8 +1070,26 @@ SHA1: 92f392cbdb3c24b3a52ca235c72157f53e8322b9
 SHA256: 1d609aab1feb558e0312ba9d845fea52285b4949b1168eec2064ced3880ba1f6
 SHA512: 57659025775028729b2b4b3b3e6689b128f46b8272f33adfb68d35e38fb1ce9baf5dec0033a2a063848f9f1344f963ed5dc6ff2cfb1f8636e10e3b8ec8f5b50b
 Description: Debug symbols for libmedia1
-Build-Ids: da59bfa97608c32014b790427159448513bd23db
 Auto-Built-Package: debug-symbols
+Build-Ids: da59bfa97608c32014b790427159448513bd23db
+
+Package: lxc-android
+Priority: optional
+Section: libs
+Installed-Size: 43
+Maintainer: Mobile CI <kubuntu-ci@lists.launchpad.net>
+Architecture: all
+Version: 0.1+p16.04+git20170530.1208-0
+Filename: pool/main/l/lxc-android/lxc-android_0.1+p16.04+git20170530.1208-0_all.deb
+Size: 5206
+MD5sum: 35a690be9744c1175fef739e3f06eda2
+SHA1: 05413e3ac2b08f1ba7be19f329847949d1cba395
+SHA256: 8aa9e8c5394003e0c2e0037bdbba6de1749b30bc3ee4b2e5c48a4ba8ea1ab903
+SHA512: 4e6f936722bf80d4bded6200695376c22dba4c69c90c96790dca76b03356771c993bc3f2224383d8b18e901f0edf8368499315d1c5417f2046d28d60378fc70d
+Description: lxc configuration for starting android
+ .
+ This package provides the configuration for starting android in lxc
+Homepage: https://github.com/Halium/lxc-android
 
 Package: maliit-inputcontext-gtk
 Priority: optional
@@ -758,8 +1204,8 @@ Description: Plasma home screen for phones
  means you can truly make your phone your own
  .
  Add and modify widgets, change colour schemes, fonts, and much, much more
-Build-Ids: 19cec2c1aa5bc528f5cdbaf4650c66611b8fb58c 1a3795849c514139ef41f09faa10dc29dd8103fd 4c1373fda68a1e814d89850483fe340c9b023488 d6e684d7d9d51973bb83e740ddb578ca32ba4b70
 Homepage: http://plasma-mobile.org
+Build-Ids: 19cec2c1aa5bc528f5cdbaf4650c66611b8fb58c 1a3795849c514139ef41f09faa10dc29dd8103fd 4c1373fda68a1e814d89850483fe340c9b023488 d6e684d7d9d51973bb83e740ddb578ca32ba4b70
 
 Package: plasma-settings
 Priority: optional
